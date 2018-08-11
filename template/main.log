@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2018.8.4)  11 AUG 2018 08:27
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2018.8.4)  11 AUG 2018 19:02
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1810,115 +1810,115 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 [2] [3]
-Overfull \hbox (3.16185pt too wide) detected at line 134
-\EU1/UbuntuMono(1)/m/n/10.53937 14.1.10 
+Overfull \hbox (3.16185pt too wide) detected at line 132
+\EU1/UbuntuMono(1)/m/n/10.53937 13.1.10 
  []
 
 
-Overfull \hbox (3.16185pt too wide) detected at line 135
-\EU1/UbuntuMono(1)/m/n/10.53937 14.1.11 
+Overfull \hbox (3.16185pt too wide) detected at line 133
+\EU1/UbuntuMono(1)/m/n/10.53937 13.1.11 
+ []
+
+
+Overfull \hbox (3.16185pt too wide) detected at line 144
+\EU1/UbuntuMono(1)/m/n/10.53937 13.2.10 
+ []
+
+
+Overfull \hbox (3.16185pt too wide) detected at line 145
+\EU1/UbuntuMono(1)/m/n/10.53937 13.2.11 
  []
 
 
 Overfull \hbox (3.16185pt too wide) detected at line 146
-\EU1/UbuntuMono(1)/m/n/10.53937 14.2.10 
+\EU1/UbuntuMono(1)/m/n/10.53937 13.2.12 
  []
 
 
 Overfull \hbox (3.16185pt too wide) detected at line 147
-\EU1/UbuntuMono(1)/m/n/10.53937 14.2.11 
- []
-
-
-Overfull \hbox (3.16185pt too wide) detected at line 148
-\EU1/UbuntuMono(1)/m/n/10.53937 14.2.12 
- []
-
-
-Overfull \hbox (3.16185pt too wide) detected at line 149
-\EU1/UbuntuMono(1)/m/n/10.53937 14.2.13 
+\EU1/UbuntuMono(1)/m/n/10.53937 13.2.13 
  []
 
 [4]
+Overfull \hbox (2.10785pt too wide) detected at line 160
+\EU1/UbuntuMono(1)/m/n/10.53937 13.10 
+ []
+
+
+Overfull \hbox (2.10785pt too wide) detected at line 161
+\EU1/UbuntuMono(1)/m/n/10.53937 13.11 
+ []
+
+
 Overfull \hbox (2.10785pt too wide) detected at line 162
-\EU1/UbuntuMono(1)/m/n/10.53937 14.10 
+\EU1/UbuntuMono(1)/m/n/10.53937 13.12 
  []
 
 
 Overfull \hbox (2.10785pt too wide) detected at line 163
-\EU1/UbuntuMono(1)/m/n/10.53937 14.11 
+\EU1/UbuntuMono(1)/m/n/10.53937 13.13 
  []
 
 
 Overfull \hbox (2.10785pt too wide) detected at line 164
-\EU1/UbuntuMono(1)/m/n/10.53937 14.12 
+\EU1/UbuntuMono(1)/m/n/10.53937 13.14 
  []
 
 
 Overfull \hbox (2.10785pt too wide) detected at line 165
-\EU1/UbuntuMono(1)/m/n/10.53937 14.13 
+\EU1/UbuntuMono(1)/m/n/10.53937 13.15 
  []
 
 
 Overfull \hbox (2.10785pt too wide) detected at line 166
-\EU1/UbuntuMono(1)/m/n/10.53937 14.14 
+\EU1/UbuntuMono(1)/m/n/10.53937 13.16 
  []
 
 
 Overfull \hbox (2.10785pt too wide) detected at line 167
-\EU1/UbuntuMono(1)/m/n/10.53937 14.15 
+\EU1/UbuntuMono(1)/m/n/10.53937 13.17 
  []
 
 
 Overfull \hbox (2.10785pt too wide) detected at line 168
-\EU1/UbuntuMono(1)/m/n/10.53937 14.16 
+\EU1/UbuntuMono(1)/m/n/10.53937 13.18 
  []
 
 
 Overfull \hbox (2.10785pt too wide) detected at line 169
-\EU1/UbuntuMono(1)/m/n/10.53937 14.17 
+\EU1/UbuntuMono(1)/m/n/10.53937 13.19 
  []
 
 
 Overfull \hbox (2.10785pt too wide) detected at line 170
-\EU1/UbuntuMono(1)/m/n/10.53937 14.18 
+\EU1/UbuntuMono(1)/m/n/10.53937 13.20 
  []
 
 
-Overfull \hbox (2.10785pt too wide) detected at line 171
-\EU1/UbuntuMono(1)/m/n/10.53937 14.19 
+Overfull \hbox (2.10785pt too wide) detected at line 181
+\EU1/UbuntuMono(1)/m/n/10.53937 14.10 
  []
 
 
-Overfull \hbox (2.10785pt too wide) detected at line 172
-\EU1/UbuntuMono(1)/m/n/10.53937 14.20 
+Overfull \hbox (2.10785pt too wide) detected at line 182
+\EU1/UbuntuMono(1)/m/n/10.53937 14.11 
  []
 
 
 Overfull \hbox (2.10785pt too wide) detected at line 183
-\EU1/UbuntuMono(1)/m/n/10.53937 15.10 
+\EU1/UbuntuMono(1)/m/n/10.53937 14.12 
  []
 
 
 Overfull \hbox (2.10785pt too wide) detected at line 184
-\EU1/UbuntuMono(1)/m/n/10.53937 15.11 
+\EU1/UbuntuMono(1)/m/n/10.53937 14.13 
  []
 
-
-Overfull \hbox (2.10785pt too wide) detected at line 185
-\EU1/UbuntuMono(1)/m/n/10.53937 15.12 
- []
-
-
-Overfull \hbox (2.10785pt too wide) detected at line 186
-\EU1/UbuntuMono(1)/m/n/10.53937 15.13 
- []
-
-[5])
+)
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
- [6]
+ [5] [6]
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/number-theory/inverse.cpp" )...executed.
 
@@ -2147,15 +2147,21 @@ ted.
 
  (./main.out.pyg [60] [61] [62])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
+escape=True -o "main.out.pyg" "source/Data-Structure/yuanfang.cpp" )...executed
+.
+
+
+(./main.out.pyg [63] [64] [65])
+runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/Graph-Algorithm/Double-Connected-Componen
 t.cpp" )...executed.
 
-
-(./main.out.pyg [63] [64])
+ (./main.out.pyg [66] [67])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/lyx-ds/bcc.cpp" )...executed.
 
- (./main.out.pyg [65] [66])
+ (./main.out.pyg
+[68] [69])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/Graph-Algorithm/Maximum-Matching-Hungary.
 cpp" )...executed.
@@ -2165,154 +2171,148 @@ runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/Graph-Algorithm/Maximum-Matching-Hopcroft
 -Karp.cpp" )...executed.
 
-
-(./main.out.pyg [67] [68])
+ (./main.out.pyg [70] [71])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/Graph-Algorithm/Maximum-Weight-Matching.c
 pp" )...executed.
 
- (./main.out.pyg [69])
+ (./main.out.pyg [72])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/Graph-Algorithm/Maximum-Flow-ISAP.cpp" ).
 ..executed.
 
- (./main.out.pyg)
-runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
-escape=True -o "main.out.pyg" "source/Graph-Algorithm/Maximum-Flow-Dinic.cpp" )
-...executed.
 
-
-(./main.out.pyg [70])
+(./main.out.pyg)
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/Graph-Algorithm/Minimum-Cost-Maxflow-SPFA
 .cpp" )...executed.
 
- (./main.out.pyg [71] [72])
+ (./main.out.pyg [73] [74])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/Graph-Algorithm/Minimum-Cost-Maxflow-ZKW.
 cpp" )...executed.
 
- (./main.out.pyg [73])
+ (./main.out.pyg [75])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/Graph-Algorithm/Two-Satisfiability.cpp" )
 ...executed.
 
 
-(./main.out.pyg [74])
+(./main.out.pyg [76])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/Graph-Algorithm/Rooted-Tree-Isomorphism.c
 pp" )...executed.
 
- (./main.out.pyg [75])
+ (./main.out.pyg [77])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/graph-theory/dominator.cpp" )...executed.
 
- (./main.out.pyg [76] [77] [78])
+ (./main.out.pyg [78] [79] [80])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/Graph-Algorithm/Hamiltonian-Circuit-Ore.c
 pp" )...executed.
 
 
-(./main.out.pyg [79] [80])
+(./main.out.pyg [81] [82])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/Graph-Algorithm/Minimum-Cut-Stoer-Wagner.
 cpp" )...executed.
 
- (./main.out.pyg [81])
+ (./main.out.pyg [83])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/Graph-Algorithm/Chord-Graph-Judgement.cpp
 " )...executed.
 
- (./main.out.pyg [82] [83])
+ (./main.out.pyg [84] [85])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/Graph-Algorithm/Chord-Graph-Group-Counter
 .cpp" )...executed.
 
 
-(./main.out.pyg [84])
+(./main.out.pyg [86])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/Graph-Algorithm/Maximum-Clique-Search.cpp
 " )...executed.
 
- (./main.out.pyg [85])
+ (./main.out.pyg [87])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/Graph-Algorithm/Maximum-Clique-Count.cpp"
  )...executed.
 
- (./main.out.pyg [86])
+ (./main.out.pyg [88])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/Graph-Algorithm/Chu-Liu-Algorithm.cpp" ).
 ..executed.
 
 
-(./main.out.pyg [87])
+(./main.out.pyg [89])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/Graph-Algorithm/Maximum-Matching-Blossom.
 cpp" )...executed.
 
- (./main.out.pyg [88] [89])
+ (./main.out.pyg [90] [91] [92])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/Graph-Algorithm/Minimum-Spanning-Tree-Wit
 h-Degree-Limit.cpp" )...executed.
 
- (./main.out.pyg [90] [91])
+ (./main.out.pyg [93]
+[94])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/string_ypm/KMP-poj3461.cpp" )...executed.
 
-
-(./main.out.pyg [92])
+ (./main.out.pyg)
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/string_ypm/exKMP-hdu2594.cpp" )...execute
 d.
 
- (./main.out.pyg [93])
+ (./main.out.pyg [95])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/string_ypm/acauto.cpp" )...executed.
 
- (./main.out.pyg [94])
+ (./main.out.pyg [96] [97])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/string_ypm/gy sam.cpp" )...executed.
 
 
-(./main.out.pyg [95] [96])
+(./main.out.pyg [98])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/string_ypm/SAM-NSUBSTR.cpp" )...executed.
 
- (./main.out.pyg [97] [98])
+ (./main.out.pyg [99] [100])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/string_ypm/SAM-LCS2.cpp" )...executed.
 
- (./main.out.pyg [99]
-[100])
+ (./main.out.pyg [101]
+[102])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/string_ypm/SA.cpp" )...executed.
 
- (./main.out.pyg [101])
+ (./main.out.pyg [103])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/string_ypm/dc3-uoj34.cpp" )...executed.
 
- (./main.out.pyg [102] [103])
+ (./main.out.pyg [104] [105] [106])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/string_ypm/PAM.cpp" )...executed.
 
- (./main.out.pyg
-[104] [105])
+
+(./main.out.pyg [107])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/string_ypm/manacher-poj3974.cpp" )...exec
 uted.
 
- (./main.out.pyg)
+ (./main.out.pyg [108])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/string_ypm/minimumpresentation.cpp" )...e
 xecuted.
 
- (./main.out.pyg [106] [107])
+ (./main.out.pyg [109])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/String-Algorithm/Suffix-Tree.cpp" )...exe
 cuted.
 
- (./main.out.pyg
-[108] [109])
+
+(./main.out.pyg [110] [111])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/Geometry/1 3DGeo.cpp" )...executed.
 
@@ -2320,76 +2320,76 @@ escape=True -o "main.out.pyg" "source/Geometry/1 3DGeo.cpp" )...executed.
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/Geometry/2 3DConvex.cpp" )...executed.
 
- (./main.out.pyg [110])
-runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
-escape=True -o "main.out.pyg" "source/Geometry/3 abolonis.cpp" )...executed.
-
- (./main.out.pyg)
-runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
-escape=True -o "main.out.pyg" "source/Geometry/4 min cover ball.cpp" )...execut
-ed.
-
-
-(./main.out.pyg [111])
-runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
-escape=True -o "main.out.pyg" "source/Geometry/5 areaCT.cpp" )...executed.
-
  (./main.out.pyg [112])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
-escape=True -o "main.out.pyg" "source/Geometry/6 CircleArea.cpp" )...executed.
-
- (./main.out.pyg [113])
-runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
-escape=True -o "main.out.pyg" "source/Geometry/7 DelaunayTriangulation.cpp" )..
-.executed.
-
-
-(./main.out.pyg [114] [115])
-runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
-escape=True -o "main.out.pyg" "source/Geometry/8 Geo2D_simple.cpp" )...executed
-.
-
- (./main.out.pyg [116] [117])
-runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
-escape=True -o "main.out.pyg" "source/Geometry/convex.cpp" )...executed.
-
- (./main.out.pyg
-[118])
-runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
-escape=True -o "main.out.pyg" "source/Geometry/9 HPI_integer.cpp" )...executed.
-
- (./main.out.pyg [119])
-runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
-escape=True -o "main.out.pyg" "source/Geometry/11 triangle.cpp" )...executed.
-
- (./main.out.pyg [120])
-runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
-escape=True -o "main.out.pyg" "source/Geometry/12.cpp" )...executed.
-
- (./main.out.pyg)
-runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
-escape=True -o "main.out.pyg" "source/Geometry/13.cpp" )...executed.
+escape=True -o "main.out.pyg" "source/Geometry/3 abolonis.cpp" )...executed.
 
 
 (./main.out.pyg)
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
-escape=True -o "main.out.pyg" "source/Geometry/14.cpp" )...executed.
+escape=True -o "main.out.pyg" "source/Geometry/4 min cover ball.cpp" )...execut
+ed.
+
+ (./main.out.pyg [113])
+runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
+escape=True -o "main.out.pyg" "source/Geometry/5 areaCT.cpp" )...executed.
+
+ (./main.out.pyg [114])
+runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
+escape=True -o "main.out.pyg" "source/Geometry/6 CircleArea.cpp" )...executed.
+
+ (./main.out.pyg
+[115])
+runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
+escape=True -o "main.out.pyg" "source/Geometry/7 DelaunayTriangulation.cpp" )..
+.executed.
+
+ (./main.out.pyg [116] [117])
+runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
+escape=True -o "main.out.pyg" "source/Geometry/8 Geo2D_simple.cpp" )...executed
+.
+
+ (./main.out.pyg [118] [119])
+runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
+escape=True -o "main.out.pyg" "source/Geometry/convex.cpp" )...executed.
+
+
+(./main.out.pyg [120])
+runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
+escape=True -o "main.out.pyg" "source/Geometry/9 HPI_integer.cpp" )...executed.
 
  (./main.out.pyg [121])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
-escape=True -o "main.out.pyg" "source/Geometry/15.cpp" )...executed.
+escape=True -o "main.out.pyg" "source/Geometry/11 triangle.cpp" )...executed.
 
  (./main.out.pyg [122])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
-escape=True -o "main.out.pyg" "source/nearest.cpp" )...executed.
+escape=True -o "main.out.pyg" "source/Geometry/12.cpp" )...executed.
+
+
+(./main.out.pyg)
+runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
+escape=True -o "main.out.pyg" "source/Geometry/13.cpp" )...executed.
+
+ (./main.out.pyg)
+runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
+escape=True -o "main.out.pyg" "source/Geometry/14.cpp" )...executed.
+
+ (./main.out.pyg [123])
+runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
+escape=True -o "main.out.pyg" "source/Geometry/15.cpp" )...executed.
 
  (./main.out.pyg
-[123])
+[124])
+runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
+escape=True -o "main.out.pyg" "source/nearest.cpp" )...executed.
+
+ (./main.out.pyg [125])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/miscellany/Steiner-Tree.cpp" )...executed
 .
 
- (./main.out.pyg [124])
+ (./main.out.pyg [126])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/miscellany/Reader.cpp" )...executed.
 
@@ -2398,16 +2398,17 @@ runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/miscellany/mintreegraph.cpp" )...executed
 .
 
- (./main.out.pyg [125])
+
+(./main.out.pyg [127])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/miscellany/DLX.cpp" )...executed.
 
-
-(./main.out.pyg [126] [127])
+ (./main.out.pyg [128] [129])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/miscellany/plugdp.cpp" )...executed.
 
- (./main.out.pyg [128] [129] [130])
+ (./main.out.pyg [130]
+[131] [132])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/miscellany/what-day-is-today.cpp" )...exe
 cuted.
@@ -2415,11 +2416,11 @@ cuted.
  (./main.out.pyg)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 673.
+(hyperref)                removing `math shift' on input line 612.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 673.
+(hyperref)                removing `math shift' on input line 612.
 
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/miscellany/subset-of-size-k.cpp" )...exec
@@ -2430,7 +2431,7 @@ runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/miscellany/cyclic-longest-common-string.c
 pp" )...executed.
 
- (./main.out.pyg [131] [132])
+ (./main.out.pyg [133] [134])
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/miscellany/LLMOD.cpp" )...executed.
 
@@ -2443,16 +2444,16 @@ escape=True -o "main.out.pyg" "source/Hint/STL-memory-release.cpp" )...executed
 runsystem(pygmentize -l cpp -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/Hint/openstack.cpp" )...executed.
 
-(./main.out.pyg) [133]
+(./main.out.pyg) [135]
 runsystem(pygmentize -l vim -f latex -P commandprefix=PYG -F tokenmerge -P math
 escape=True -o "main.out.pyg" "source/Hint/vimrc" )...executed.
 
- (./main.out.pyg) [134] [135] [136]
+ (./main.out.pyg) [136] [137] [138]
 runsystem(pygmentize -l java -f latex -P commandprefix=PYG -F tokenmerge -P mat
 hescape=True -o "main.out.pyg" "source/Hint/Java-Hints.java" )...executed.
 
  (./main.out.pyg
-[137]
+[139]
 Overfull \hbox (50.00461pt too wide) in paragraph at lines 72--72
 | | | |[][][][][][][][][][][][][][][][][][][]|  
  []
@@ -2466,7 +2467,7 @@ Overfull \hbox (41.7708pt too wide) in paragraph at lines 73--73
 runsystem(pygmentize -l java -f latex -P commandprefix=PYG -F tokenmerge -P mat
 hescape=True -o "main.out.pyg" "source/template1.java" )...executed.
 
- (./main.out.pyg [138] [139] [140])
+ (./main.out.pyg [140] [141] [142])
 File: source/biginteger.pdf Graphic file (type QTm)
  <use  "source/biginteger.pdf" >
 File: source/biginteger.pdf Graphic file (type QTm)
@@ -2476,7 +2477,7 @@ File: source/biginteger.pdf Graphic file (type QTm)
  <use  "source/biginteger.pdf"  page1>
 File: source/biginteger.pdf Graphic file (type QTm)
 
-<use  "source/biginteger.pdf"  page1> [141]
+<use  "source/biginteger.pdf"  page1> [143]
 File: source/biginteger.pdf Graphic file (type QTm)
 
 <use  "source/biginteger.pdf"  page1>
@@ -2484,7 +2485,7 @@ File: source/biginteger.pdf Graphic file (type QTm)
  <use  "source/biginteger.pdf"  page1>
 File: source/biginteger.pdf Graphic file (type QTm)
 
-<use  "source/biginteger.pdf"  page1> [142]
+<use  "source/biginteger.pdf"  page1> [144]
 File: source/biginteger.pdf Graphic file (type QTm)
 
 <use  "source/biginteger.pdf"  page2>
@@ -2492,7 +2493,7 @@ File: source/biginteger.pdf Graphic file (type QTm)
  <use  "source/biginteger.pdf"  page2>
 File: source/biginteger.pdf Graphic file (type QTm)
 
-<use  "source/biginteger.pdf"  page2> [143]
+<use  "source/biginteger.pdf"  page2> [145]
 File: source/biginteger.pdf Graphic file (type QTm)
 
 <use  "source/biginteger.pdf"  page3>
@@ -2500,7 +2501,7 @@ File: source/biginteger.pdf Graphic file (type QTm)
  <use  "source/biginteger.pdf"  page3>
 File: source/biginteger.pdf Graphic file (type QTm)
 
-<use  "source/biginteger.pdf"  page3> [144]
+<use  "source/biginteger.pdf"  page3> [146]
 File: source/biginteger.pdf Graphic file (type QTm)
 
 <use  "source/biginteger.pdf"  page4>
@@ -2508,7 +2509,7 @@ File: source/biginteger.pdf Graphic file (type QTm)
  <use  "source/biginteger.pdf"  page4>
 File: source/biginteger.pdf Graphic file (type QTm)
 
-<use  "source/biginteger.pdf"  page4> [145]
+<use  "source/biginteger.pdf"  page4> [147]
 File: source/biginteger.pdf Graphic file (type QTm)
 
 <use  "source/biginteger.pdf"  page5>
@@ -2516,7 +2517,7 @@ File: source/biginteger.pdf Graphic file (type QTm)
  <use  "source/biginteger.pdf"  page5>
 File: source/biginteger.pdf Graphic file (type QTm)
 
-<use  "source/biginteger.pdf"  page5> [146]
+<use  "source/biginteger.pdf"  page5> [148]
 File: source/biginteger.pdf Graphic file (type QTm)
 
 <use  "source/biginteger.pdf"  page6>
@@ -2524,7 +2525,7 @@ File: source/biginteger.pdf Graphic file (type QTm)
  <use  "source/biginteger.pdf"  page6>
 File: source/biginteger.pdf Graphic file (type QTm)
 
-<use  "source/biginteger.pdf"  page6> [147]
+<use  "source/biginteger.pdf"  page6> [149]
 File: source/treemap.pdf Graphic file (type QTm)
  <use  "source/treemap.pdf" >
 File: source/treemap.pdf Graphic file (type QTm)
@@ -2541,7 +2542,7 @@ File: source/treemap.pdf Graphic file (type QTm)
 
 <use  "source/treemap.pdf"  page1>
 File: source/treemap.pdf Graphic file (type QTm)
- <use  "source/treemap.pdf"  page1> [148]
+ <use  "source/treemap.pdf"  page1> [150]
 File: source/treemap.pdf Graphic file (type QTm)
 
 <use  "source/treemap.pdf"  page2>
@@ -2549,14 +2550,14 @@ File: source/treemap.pdf Graphic file (type QTm)
  <use  "source/treemap.pdf"  page2>
 File: source/treemap.pdf Graphic file (type QTm)
 
-<use  "source/treemap.pdf"  page2> [149]
+<use  "source/treemap.pdf"  page2> [151]
 File: source/treemap.pdf Graphic file (type QTm)
  <use  "source/treemap.pdf"  page3>
 File: source/treemap.pdf Graphic file (type QTm)
 
 <use  "source/treemap.pdf"  page3>
 File: source/treemap.pdf Graphic file (type QTm)
- <use  "source/treemap.pdf"  page3> [150]
+ <use  "source/treemap.pdf"  page3> [152]
 File: source/treemap.pdf Graphic file (type QTm)
 
 <use  "source/treemap.pdf"  page4>
@@ -2564,29 +2565,24 @@ File: source/treemap.pdf Graphic file (type QTm)
  <use  "source/treemap.pdf"  page4>
 File: source/treemap.pdf Graphic file (type QTm)
 
-<use  "source/treemap.pdf"  page4> [151]
+<use  "source/treemap.pdf"  page4> [153]
 File: source/treemap.pdf Graphic file (type QTm)
  <use  "source/treemap.pdf"  page5>
 File: source/treemap.pdf Graphic file (type QTm)
 
 <use  "source/treemap.pdf"  page5>
 File: source/treemap.pdf Graphic file (type QTm)
- <use  "source/treemap.pdf"  page5> [152]
-runsystem(pygmentize -l java -f latex -P commandprefix=PYG -F tokenmerge -P mat
-hescape=True -o "main.out.pyg" "source/gedit.ini" )...executed.
-
-
-(./main.out.pyg) (./source/Hint/Bernoulli-Number.tex [153]) [154] [155]
-[156]
+ <use  "source/treemap.pdf"  page5> [154]
+(./source/Hint/Bernoulli-Number.tex) [155] [156] [157]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 982.
+(hyperref)                removing `math shift' on input line 919.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 982.
+(hyperref)                removing `math shift' on input line 919.
 
-[157] [158] [159] (./source/calculustable.tex
+[158] [159] [160] (./source/calculustable.tex
 Underfull \vbox (badness 10000) detected at line 5
  []
 
@@ -2613,7 +2609,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
 
-
+[161]
 Underfull \vbox (badness 10000) detected at line 20
  []
 
@@ -2718,16 +2714,15 @@ Underfull \vbox (badness 10000) detected at line 108
 Underfull \vbox (badness 10000) detected at line 112
  []
 
-) [160] (./source/Hint/Game-Theory.tex
+) [162] (./source/Hint/Game-Theory.tex
 Missing character: There is no （ in font Ubuntu Mono/OT:script=latn;language=DF
 LT;mapping=tex-text;!
 Missing character: There is no ） in font Ubuntu Mono/OT:script=latn;language=DF
 LT;mapping=tex-text;!
- [161]
 Missing character: There is no ， in font Ubuntu Mono/OT:script=latn;language=DF
 LT;mapping=tex-text;!
-)
-(./source/Hint/Mathematical-Lemma.tex [162] [163] [164] [165]
+ [163])
+(./source/Hint/Mathematical-Lemma.tex [164] [165] [166] [167]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 105.
@@ -2736,12 +2731,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 105.
 
-[166] [167] [168] [169]) (./source/Appendix/NFT-Primes.tex
+[168] [169] [170]) (./source/Appendix/NFT-Primes.tex
 Overfull \hbox (67.824pt too wide) in paragraph at lines 3--133
 [] [] [] 
  []
 
-) [170]
+) [171]
 File: source/Appendix/cheat.pdf Graphic file (type QTm)
  <use  "source/Appendix/cheat.pdf" >
 File: source/Appendix/cheat.pdf Graphic file (type QTm)
@@ -2751,25 +2746,25 @@ File: source/Appendix/cheat.pdf Graphic file (type QTm)
  <use  "source/Appendix/cheat.pdf"  page1>
 File: source/Appendix/cheat.pdf Graphic file (type QTm)
 
-<use  "source/Appendix/cheat.pdf"  page1> [171]
-File: source/Appendix/cheat.pdf Graphic file (type QTm)
-
-<use  "source/Appendix/cheat.pdf"  page1>
-File: source/Appendix/cheat.pdf Graphic file (type QTm)
-
-<use  "source/Appendix/cheat.pdf"  page1>
-File: source/Appendix/cheat.pdf Graphic file (type QTm)
-
 <use  "source/Appendix/cheat.pdf"  page1> [172]
 File: source/Appendix/cheat.pdf Graphic file (type QTm)
 
-<use  "source/Appendix/cheat.pdf"  page2>
+<use  "source/Appendix/cheat.pdf"  page1>
+File: source/Appendix/cheat.pdf Graphic file (type QTm)
+
+<use  "source/Appendix/cheat.pdf"  page1>
+File: source/Appendix/cheat.pdf Graphic file (type QTm)
+
+<use  "source/Appendix/cheat.pdf"  page1> [173]
 File: source/Appendix/cheat.pdf Graphic file (type QTm)
 
 <use  "source/Appendix/cheat.pdf"  page2>
 File: source/Appendix/cheat.pdf Graphic file (type QTm)
 
-<use  "source/Appendix/cheat.pdf"  page2> [173]
+<use  "source/Appendix/cheat.pdf"  page2>
+File: source/Appendix/cheat.pdf Graphic file (type QTm)
+
+<use  "source/Appendix/cheat.pdf"  page2> [174]
 File: source/Appendix/cheat.pdf Graphic file (type QTm)
 
 <use  "source/Appendix/cheat.pdf"  page3>
@@ -2778,7 +2773,7 @@ File: source/Appendix/cheat.pdf Graphic file (type QTm)
 <use  "source/Appendix/cheat.pdf"  page3>
 File: source/Appendix/cheat.pdf Graphic file (type QTm)
 
-<use  "source/Appendix/cheat.pdf"  page3> [174]
+<use  "source/Appendix/cheat.pdf"  page3> [175]
 File: source/Appendix/cheat.pdf Graphic file (type QTm)
 
 <use  "source/Appendix/cheat.pdf"  page4>
@@ -2787,7 +2782,7 @@ File: source/Appendix/cheat.pdf Graphic file (type QTm)
 <use  "source/Appendix/cheat.pdf"  page4>
 File: source/Appendix/cheat.pdf Graphic file (type QTm)
 
-<use  "source/Appendix/cheat.pdf"  page4> [175]
+<use  "source/Appendix/cheat.pdf"  page4> [176]
 File: source/Appendix/cheat.pdf Graphic file (type QTm)
 
 <use  "source/Appendix/cheat.pdf"  page5>
@@ -2796,7 +2791,7 @@ File: source/Appendix/cheat.pdf Graphic file (type QTm)
 <use  "source/Appendix/cheat.pdf"  page5>
 File: source/Appendix/cheat.pdf Graphic file (type QTm)
 
-<use  "source/Appendix/cheat.pdf"  page5> [176]
+<use  "source/Appendix/cheat.pdf"  page5> [177]
 File: source/Appendix/cheat.pdf Graphic file (type QTm)
 
 <use  "source/Appendix/cheat.pdf"  page6>
@@ -2805,7 +2800,7 @@ File: source/Appendix/cheat.pdf Graphic file (type QTm)
 <use  "source/Appendix/cheat.pdf"  page6>
 File: source/Appendix/cheat.pdf Graphic file (type QTm)
 
-<use  "source/Appendix/cheat.pdf"  page6> [177]
+<use  "source/Appendix/cheat.pdf"  page6> [178]
 File: source/Appendix/cheat.pdf Graphic file (type QTm)
 
 <use  "source/Appendix/cheat.pdf"  page7>
@@ -2814,7 +2809,7 @@ File: source/Appendix/cheat.pdf Graphic file (type QTm)
 <use  "source/Appendix/cheat.pdf"  page7>
 File: source/Appendix/cheat.pdf Graphic file (type QTm)
 
-<use  "source/Appendix/cheat.pdf"  page7> [178]
+<use  "source/Appendix/cheat.pdf"  page7> [179]
 File: source/Appendix/cheat.pdf Graphic file (type QTm)
 
 <use  "source/Appendix/cheat.pdf"  page8>
@@ -2823,7 +2818,7 @@ File: source/Appendix/cheat.pdf Graphic file (type QTm)
 <use  "source/Appendix/cheat.pdf"  page8>
 File: source/Appendix/cheat.pdf Graphic file (type QTm)
 
-<use  "source/Appendix/cheat.pdf"  page8> [179]
+<use  "source/Appendix/cheat.pdf"  page8> [180]
 File: source/Appendix/cheat.pdf Graphic file (type QTm)
 
 <use  "source/Appendix/cheat.pdf"  page9>
@@ -2832,7 +2827,7 @@ File: source/Appendix/cheat.pdf Graphic file (type QTm)
 <use  "source/Appendix/cheat.pdf"  page9>
 File: source/Appendix/cheat.pdf Graphic file (type QTm)
 
-<use  "source/Appendix/cheat.pdf"  page9> [180]
+<use  "source/Appendix/cheat.pdf"  page9> [181]
 File: source/Appendix/cheat.pdf Graphic file (type QTm)
 
 <use  "source/Appendix/cheat.pdf"  page10>
@@ -2841,27 +2836,27 @@ File: source/Appendix/cheat.pdf Graphic file (type QTm)
 <use  "source/Appendix/cheat.pdf"  page10>
 File: source/Appendix/cheat.pdf Graphic file (type QTm)
 
-<use  "source/Appendix/cheat.pdf"  page10> [181]
+<use  "source/Appendix/cheat.pdf"  page10> [182]
 runsystem(rm "main.out.pyg")...executed.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1162.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1162.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1099.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1099.
  (./main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1162.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1162.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1099.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1099.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1162.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1099.
  ) 
 Here is how much of TeX's memory you used:
- 31189 strings out of 493638
- 588850 string characters out of 6146797
- 668946 words of memory out of 5000000
+ 31187 strings out of 493638
+ 588824 string characters out of 6146797
+ 671738 words of memory out of 5000000
  33936 multiletter control sequences out of 15000+600000
  24865 words of font info for 136 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  65i,18n,77p,10427b,647s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (181 pages).
+Output written on main.pdf (182 pages).
