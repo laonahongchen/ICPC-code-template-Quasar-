@@ -83,8 +83,6 @@
 \author{Quasar}
 \date{\today}
 
-
-
 \maketitle
 
 \newpage
@@ -424,7 +422,40 @@ F_{t + 1}(x) &\equiv F_t(x) - \dfrac{F_t(x) * A(x) - 1}{A(x)} \\
 \subsection{度限制生成树}
 \cppcode{Graph-Algorithm/Minimum-Spanning-Tree-With-Degree-Limit.cpp}
 
+
+
 \section{字符串}
+
+
+\subsection{KMP}
+\cppcode{String/kmp.cpp}
+
+\subsection{EXKMP}
+\cppcode{String/exkmp.cpp}
+
+\subsection{AC自动机}
+\cppcode{String/acauto.cpp}
+
+\subsection{SAM}
+\cppcode{String/sam.cpp}
+
+\subsection{后缀数组}
+\cppcode{String/sa.cpp}
+
+\subsection{回文自动机}
+\cppcode{String/palinauto.cpp}
+
+\subsection{Manacher}
+\cppcode{String/Manacher.cpp}
+
+
+
+\subsection{循环串的最小表示}
+\noindent \textbf{注意事项：}0-Based算法，请注意下标。
+%\cppcode{String-Algorithm/Minimum-Representation.cpp}
+\cppcode{string_ypm/minimumpresentation.cpp}
+
+\iffalse
 
 \subsection{KMP算法}
 
@@ -478,115 +509,51 @@ F_{t + 1}(x) &\equiv F_t(x) - \dfrac{F_t(x) * A(x) - 1}{A(x)} \\
 	\item \indent 如果要建立关于多个串的后缀树，请用不同的分隔符，并且对于每个叶子结点，去掉和它父亲的连边上出现的第一个分隔符之后的所有字符；
 \end{enumerate}
 \cppcode{String-Algorithm/Suffix-Tree.cpp}
+
+\fi
+
 \section{计算几何}
-\subsection{三维几何}
-
-\cppcode{Geometry/3DGeo.cpp}
-
-\subsection{三维凸包}
-\cppcode{Geometry/3DConvex.cpp}
-
-\subsection{阿波罗尼茨圆}
-\cppcode{Geometry/abolonis.cpp}
-
-\subsection{最小覆盖球}
-\cppcode{Geometry/mincoverball.cpp}
-
-\subsection{三角形与圆交}
-\cppcode{Geometry/areaCT.cpp}
-
-\subsection{圆并}
-\cppcode{Geometry/CircleArea.cpp}
-
-\subsection{Delaunay 三角剖分}
-\cppcode{Geometry/DelaunayTriangulation.cpp}
 
 \subsection{二维几何}
-\cppcode{Geometry/Geo2D_simple.cpp}
+%	\cppcode{geometry/8 Geo2D_simple.cpp}
+\cppcode{geometry/Geo2D.cpp}
+%	\subsection{凸包}
+%	\cppcode{geometry/convex.cpp}
 
-\subsection{凸包}
-\cppcode{Geometry/convex.cpp}
+\subsection{阿波罗尼茨圆}
+\cppcode{geometry/3 abolonis.cpp}
+
+\subsection{三角形与圆交}
+\cppcode{geometry/areaCT.cpp}
+
+\subsection{圆并}
+\cppcode{geometry/CircleArea.cpp}
 
 \subsection{整数半平面交}
-\cppcode{Geometry/HPI_integer.cpp}
-
-%\subsection{凸包闵可夫斯基和}
-%\cppcode{Geometry/mink.cpp}
+\cppcode{geometry/HPI_integer.cpp}
+\subsection{半平面交}
+\cppcode{geometry/HalfPlaneIntersection.cpp}
 
 \subsection{三角形}
-\cppcode{Geometry/triangle.cpp}
+\cppcode{geometry/Triangle.cpp}
 
 \subsection{经纬度求球面最短距离}
-\cppcode{Geometry/12.cpp}
+\cppcode{geometry/12.cpp}
 
 \subsection{长方体表面两点最短距离}
-\cppcode{Geometry/13.cpp}
+\cppcode{geometry/13.cpp}
 
 \subsection{点到凸包切线}
-\cppcode{Geometry/14.cpp}
+\cppcode{geometry/14.cpp}
 
 \subsection{直线与凸包的交点}
-\cppcode{Geometry/15.cpp}
+\cppcode{geometry/15.cpp}
 
 \subsection{平面最近点对}
-\cppcode{nearest.cpp}
+\cppcode{geometry/nearest.cpp}
 
-
-\iffalse
-\subsection{二维几何基础}
-\cppcode{Geometry-Algorithm/Basic2D.cpp}
-\subsection{快速凸包}
-\cppcode{Geometry-Algorithm/Convex-Hull.cpp}
-\subsection{半平面交}
-\cppcode{Geometry-Algorithm/Half-Plane-Intersection.cpp}
-\subsection{三角形的心}
-\cppcode{Geometry-Algorithm/Triangle-Core.cpp}
-\subsection{圆与多边形面积交}
-\cppcode{Geometry-Algorithm/Circle-Polygon-Intersection.cpp}
-\subsection{圆并求面积}
-\noindent \textbf{注意事项：}复杂度$\mathcal{O}(n^2\log n)$
-\cppcode{Geometry-Algorithm/Circle-Union.cpp}
-%\section{最近点对}
-\subsection{最小覆盖圆}
-\cppcode{Geometry-Algorithm/Minimum-Coverage-Circle.cpp}
-\subsection{最小覆盖球}
-\cppcode{Geometry-Algorithm/Minimum-Coverage-Ball.cpp}
-\subsection{三维几何基础}
-\cppcode{Geometry-Algorithm/Basic3D.cpp}
-\subsection{三维凸包}
-\cppcode{Geometry-Algorithm/Convex-Hull-3D.cpp}
-\subsection{三维绕轴旋转}
-\noindent \textbf{注意事项：}逆时针绕轴AB旋转$\theta$角。
-\cppcode{Geometry-Algorithm/Rotate-3D.cpp}
-\subsection{Delaunay三角剖分}
-\cppcode{Geometry-Algorithm/Delaunay-Decomposition.cpp}
-\fi
-%\section{求四点外接球}
-
-%\section{计算几何}
-
-%\subsection{二维基础}
-
-%\subsubsection{点类}
-
-%\cppcode{computational-geometry/point.cpp}
-
-%\subsubsection{凸包}
-
-%\cppcode{computational-geometry/convex-hull.cpp}
-
-%\subsubsection{半平面交}
-%\cppcode{computational-geometry/halfplaneintersection.cpp}
-
-%\subsubsection{最近点对}
-%\cppcode{computational-geometry/closest-pair-of-points.cpp}
-
-%\subsubsection{最小圆覆盖}
-%\cppcode{computational-geometry/mincir.cpp}
-
-%\subsubsection{凸包快速询问}
-%\cppcode{computational-geometry/PlayWithConvex.cpp}
-
+\subsection{三维几何}
+\cppcode{geometry/3DGeo.cpp}
 
 \section{其他}
 
