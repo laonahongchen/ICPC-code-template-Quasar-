@@ -42,16 +42,16 @@ namespace zkw{
     int left = flow;
     for (int i = e.last[x]; ~i; i = e.succ[i])
       if (e.cap[i] > 0 && !visit[e.other[i]]) {
-	int y = e.other[i];
-	if (dis[y] + e.cost[i] == dis[x]) {
-	  int delta = dfs(y, std::min(left, e.cap[i]));
-	  e.cap[i] -= delta;
-	  e.cap[i ^ 1] += delta;
-	  left -= delta;
-	  if (!left) {visit[x] = 0;return flow;}
-	}else {
-	  slack[y] = std::min(slack[y], dis[y] + e.cost[i] - dis[x]);
-	}
+		int y = e.other[i];
+		if (dis[y] + e.cost[i] == dis[x]) {
+		  int delta = dfs(y, std::min(left, e.cap[i]));
+		  e.cap[i] -= delta;
+		  e.cap[i ^ 1] += delta;
+		  left -= delta;
+		  if (!left) {visit[x] = 0;return flow;}
+		}else {
+		  slack[y] = std::min(slack[y], dis[y] + e.cost[i] - dis[x]);
+		}
       }
     return flow - left;
   }
@@ -68,3 +68,4 @@ namespace zkw{
     return std::make_pair(totFlow, totCost);
   }
 }
+

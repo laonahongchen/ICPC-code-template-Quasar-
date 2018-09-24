@@ -1,10 +1,9 @@
 %文档类型
-\documentclass[a4paper]{article}
+\documentclass[a4paper]{ctexart}
 
 %引用包裹
 \usepackage{bm}
 \usepackage{cmap}
-\usepackage{ctex}
 \usepackage{cite}
 \usepackage{color}
 \usepackage{float}
@@ -84,9 +83,9 @@
 \author{Quasar}
 \date{\today}
 
-\newpage
-
 \maketitle
+
+\newpage
 
 \tableofcontents
 
@@ -423,7 +422,40 @@ F_{t + 1}(x) &\equiv F_t(x) - \dfrac{F_t(x) * A(x) - 1}{A(x)} \\
 \subsection{度限制生成树}
 \cppcode{Graph-Algorithm/Minimum-Spanning-Tree-With-Degree-Limit.cpp}
 
+
+
 \section{字符串}
+
+
+\subsection{KMP}
+\cppcode{String/kmp.cpp}
+
+\subsection{EXKMP}
+\cppcode{String/exkmp.cpp}
+
+\subsection{AC自动机}
+\cppcode{String/acauto.cpp}
+
+\subsection{SAM}
+\cppcode{String/sam.cpp}
+
+\subsection{后缀数组}
+\cppcode{String/sa.cpp}
+
+\subsection{回文自动机}
+\cppcode{String/palinauto.cpp}
+
+\subsection{Manacher}
+\cppcode{String/Manacher.cpp}
+
+
+
+\subsection{循环串的最小表示}
+\noindent \textbf{注意事项：}0-Based算法，请注意下标。
+%\cppcode{String-Algorithm/Minimum-Representation.cpp}
+\cppcode{string_ypm/minimumpresentation.cpp}
+
+\iffalse
 
 \subsection{KMP算法}
 
@@ -477,115 +509,51 @@ F_{t + 1}(x) &\equiv F_t(x) - \dfrac{F_t(x) * A(x) - 1}{A(x)} \\
 	\item \indent 如果要建立关于多个串的后缀树，请用不同的分隔符，并且对于每个叶子结点，去掉和它父亲的连边上出现的第一个分隔符之后的所有字符；
 \end{enumerate}
 \cppcode{String-Algorithm/Suffix-Tree.cpp}
+
+\fi
+
 \section{计算几何}
-\subsection{三维几何}
-
-\cppcode{Geometry/1 3DGeo.cpp}
-
-\subsection{三维凸包}
-\cppcode{Geometry/2 3DConvex.cpp}
-
-\subsection{阿波罗尼茨圆}
-\cppcode{Geometry/3 abolonis.cpp}
-
-\subsection{最小覆盖球}
-\cppcode{Geometry/4 min cover ball.cpp}
-
-\subsection{三角形与圆交}
-\cppcode{Geometry/5 areaCT.cpp}
-
-\subsection{圆并}
-\cppcode{Geometry/6 CircleArea.cpp}
-
-\subsection{Delaunay 三角剖分}
-\cppcode{Geometry/7 DelaunayTriangulation.cpp}
 
 \subsection{二维几何}
-\cppcode{Geometry/8 Geo2D_simple.cpp}
+%	\cppcode{geometry/8 Geo2D_simple.cpp}
+\cppcode{geometry/Geo2D.cpp}
+%	\subsection{凸包}
+%	\cppcode{geometry/convex.cpp}
 
-\subsection{凸包}
-\cppcode{Geometry/convex.cpp}
+\subsection{阿波罗尼茨圆}
+\cppcode{geometry/3 abolonis.cpp}
+
+\subsection{三角形与圆交}
+\cppcode{geometry/areaCT.cpp}
+
+\subsection{圆并}
+\cppcode{geometry/CircleArea.cpp}
 
 \subsection{整数半平面交}
-\cppcode{Geometry/9 HPI_integer.cpp}
-
-%\subsection{凸包闵可夫斯基和}
-%\cppcode{Geometry/10 mink.cpp}
+\cppcode{geometry/HPI_integer.cpp}
+\subsection{半平面交}
+\cppcode{geometry/HalfPlaneIntersection.cpp}
 
 \subsection{三角形}
-\cppcode{Geometry/11 triangle.cpp}
+\cppcode{geometry/Triangle.cpp}
 
 \subsection{经纬度求球面最短距离}
-\cppcode{Geometry/12.cpp}
+\cppcode{geometry/12.cpp}
 
 \subsection{长方体表面两点最短距离}
-\cppcode{Geometry/13.cpp}
+\cppcode{geometry/13.cpp}
 
 \subsection{点到凸包切线}
-\cppcode{Geometry/14.cpp}
+\cppcode{geometry/14.cpp}
 
 \subsection{直线与凸包的交点}
-\cppcode{Geometry/15.cpp}
+\cppcode{geometry/15.cpp}
 
 \subsection{平面最近点对}
-\cppcode{nearest.cpp}
+\cppcode{geometry/nearest.cpp}
 
-
-\iffalse
-\subsection{二维几何基础}
-\cppcode{Geometry-Algorithm/Basic2D.cpp}
-\subsection{快速凸包}
-\cppcode{Geometry-Algorithm/Convex-Hull.cpp}
-\subsection{半平面交}
-\cppcode{Geometry-Algorithm/Half-Plane-Intersection.cpp}
-\subsection{三角形的心}
-\cppcode{Geometry-Algorithm/Triangle-Core.cpp}
-\subsection{圆与多边形面积交}
-\cppcode{Geometry-Algorithm/Circle-Polygon-Intersection.cpp}
-\subsection{圆并求面积}
-\noindent \textbf{注意事项：}复杂度$\mathcal{O}(n^2\log n)$
-\cppcode{Geometry-Algorithm/Circle-Union.cpp}
-%\section{最近点对}
-\subsection{最小覆盖圆}
-\cppcode{Geometry-Algorithm/Minimum-Coverage-Circle.cpp}
-\subsection{最小覆盖球}
-\cppcode{Geometry-Algorithm/Minimum-Coverage-Ball.cpp}
-\subsection{三维几何基础}
-\cppcode{Geometry-Algorithm/Basic3D.cpp}
-\subsection{三维凸包}
-\cppcode{Geometry-Algorithm/Convex-Hull-3D.cpp}
-\subsection{三维绕轴旋转}
-\noindent \textbf{注意事项：}逆时针绕轴AB旋转$\theta$角。
-\cppcode{Geometry-Algorithm/Rotate-3D.cpp}
-\subsection{Delaunay三角剖分}
-\cppcode{Geometry-Algorithm/Delaunay-Decomposition.cpp}
-\fi
-%\section{求四点外接球}
-
-%\section{计算几何}
-
-%\subsection{二维基础}
-
-%\subsubsection{点类}
-
-%\cppcode{computational-geometry/point.cpp}
-
-%\subsubsection{凸包}
-
-%\cppcode{computational-geometry/convex-hull.cpp}
-
-%\subsubsection{半平面交}
-%\cppcode{computational-geometry/halfplaneintersection.cpp}
-
-%\subsubsection{最近点对}
-%\cppcode{computational-geometry/closest-pair-of-points.cpp}
-
-%\subsubsection{最小圆覆盖}
-%\cppcode{computational-geometry/mincir.cpp}
-
-%\subsubsection{凸包快速询问}
-%\cppcode{computational-geometry/PlayWithConvex.cpp}
-
+\subsection{三维几何}
+\cppcode{geometry/3DGeo.cpp}
 
 \section{其他}
 
@@ -696,12 +664,12 @@ $$0 \leq G(u,v) \leq C(u,v)-B(u,v)$$
 \begin{enumerate}
 	\item 对每个点$x$：从$x$到$t$连一条费用为0，流量为MAX的边，表示可以任意停止当前的剧情（接下来的剧情从更优的路径去走，画个样例就知道了）
 	\item 对于每一条边权为z的边x->y：
-	
+
 	\begin{itemize}
 		\item 从S到y连一条流量为1，费用为z的边，代表这条边至少要被走一次。
 		\item 从x到y连一条流量为MAX，费用为z的边，代表这条边除了至少走的一次之外还可以随便走。
 		\item 从x到T连一条流量为1，费用为0的边。（注意是每一条x->y的边都连，或者你可以记下x的出边数Kx，连一次流量为Kx，费用为0的边）。
-		
+
 	\end{itemize}
 \end{enumerate}
 建完图后从S到T跑一遍费用流，即可。（当前跑出来的就是满足上下界的最小费用最小流了）
@@ -709,18 +677,18 @@ $$0 \leq G(u,v) \leq C(u,v)-B(u,v)$$
 \subsection{弦图相关}
 \begin{enumerate}
 	\item[1.] 团数 $\leq$ 色数 , 弦图团数 = 色数
-	\item[2.] 设 $next(v)$ 表示 $N(v)$ 中最前的点 . 
-	令 w* 表示所有满足 $A \in B$ 的 w 中最后的一个点 , 
-	判断 $v \cup N(v)$ 是否为极大团 , 
-	只需判断是否存在一个 w, 
-	满足 $Next(w)=v$ 且 $|N(v)| + 1 \leq |N(w)|$ 即可 . 
-	\item[3.] 最小染色 : 完美消除序列从后往前依次给每个点染色 , 
+	\item[2.] 设 $next(v)$ 表示 $N(v)$ 中最前的点 .
+	令 w* 表示所有满足 $A \in B$ 的 w 中最后的一个点 ,
+	判断 $v \cup N(v)$ 是否为极大团 ,
+	只需判断是否存在一个 w,
+	满足 $Next(w)=v$ 且 $|N(v)| + 1 \leq |N(w)|$ 即可 .
+	\item[3.] 最小染色 : 完美消除序列从后往前依次给每个点染色 ,
 	给每个点染上可以染的最小的颜色
 	\item[4.] 最大独立集 : 完美消除序列从前往后能选就选
-	\item[5.] 弦图最大独立集数 $=$ 最小团覆盖数 , 
-	最小团覆盖 : 
-	设最大独立集为 $\{p_1,p_2, \dots ,p_t\}$, 
-	则 $\{p_1\cup N(p_1), \dots , p_t \cup N(p_t)\}$ 
+	\item[5.] 弦图最大独立集数 $=$ 最小团覆盖数 ,
+	最小团覆盖 :
+	设最大独立集为 $\{p_1,p_2, \dots ,p_t\}$,
+	则 $\{p_1\cup N(p_1), \dots , p_t \cup N(p_t)\}$
 	为最小团覆盖
 \end{enumerate}
 
@@ -891,7 +859,7 @@ $$p_k = \sum_{i = 1}^n{x_i^k}$$
 	$$S=\frac{a \cdot H_a}{2}=\frac{ab \cdot sinC}{2}=\sqrt{p(p-a)(p-b)(p-c)}$$
 	\item 中线
 	$$M_a=\frac{\sqrt{2(b^2+c^2)-a^2}}{2}=\frac{\sqrt{b^2+c^2+2bc \cdot cosA}}{2}$$
-	\item 角平分线 
+	\item 角平分线
 	$$T_a=\frac{\sqrt{bc \cdot [(b+c)^2-a^2]}}{b+c}=\frac{2bc}{b+c}cos\frac{A}{2}$$
 	\item 高线
 	$$H_a=bsinC=csinB=\sqrt{b^2-(\frac{a^2+b^2-c^2}{2a})^2}$$
@@ -1072,7 +1040,7 @@ a & = & \sqrt{xYZ}, \\
 b & = & \sqrt{yZX}, \\
 c & = & \sqrt{zXY}, \\
 d & = & \sqrt{xyz}, \\
-s & = & a + b + c + d, \\ 
+s & = & a + b + c + d, \\
 X & = & (w - U + v)(U + v + w), \\
 x & = & (U - v + w)(v - w + U), \\
 Y & = & (u - V + w)(V + w + u), \\
@@ -1097,4 +1065,3 @@ z & = & (W - u + v)(u - v + W)
 \includepdf[pages=-]{source/Appendix/cheat.pdf}
 
 \end{document}
-
