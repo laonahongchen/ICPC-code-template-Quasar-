@@ -1,5 +1,3 @@
-
-BZOJ 3998 [TJOI2015]œ“¬€
 int n, K, flag, nodecnt;
 char str[maxn];
 int siz[maxn], Ws[maxn], Q[maxn];ll sum[maxn];
@@ -66,4 +64,3 @@ int main(){
     else Dfs(0);
     return 0;
 }
-```
