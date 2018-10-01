@@ -1,6 +1,5 @@
-//Virtual Tree 
 void VirtualTree(){
-	sort(Q + 1, Q + s + 1, cmp);//∞¥’’dfs–Ú≈≈–Ú 
+	sort(Q + 1, Q + s + 1, cmp);
 	sta[stm = 1] = Q[1];
 	for(int i = 2, x; i <= s; ++i){
 		x = Q[i];
