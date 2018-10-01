@@ -1,4 +1,3 @@
-//Strongly Connected Component
 void Targan(int x){
   dfn[x] = low[x] = ++cnt;
   sta[++stm] = x;ins[x] = 1;
