@@ -1,4 +1,3 @@
-//Bridges and Cut Vertices
 void Targan(int x, int fa){
 	dfn[x] = low[x] = ++cnt;
 	int son = 0;
@@ -16,4 +15,3 @@ void Targan(int x, int fa){
 	}
 	if(!fa && son == 1)cut[x] = 0;
 }
-
