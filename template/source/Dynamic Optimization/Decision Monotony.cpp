@@ -1,5 +1,5 @@
 //Decision Monotony 
-//分治写法
+//鍒嗘不鍐欐硶
 ll Calc(int j, int i){
   return f[la][j] + A[j] * (A[i] - A[j]);
 }
@@ -17,7 +17,7 @@ void solve(int l, int r, int pl, int pr){
   solve(mid + 1, r, pm, pr);
 }
 
-//二分写法(有毒)
+//浜屽垎鍐欐硶
 ll Calc(int fl, int j, int i){
   return f[fl][j] + A[j] * (A[i] - A[j]);
 }
