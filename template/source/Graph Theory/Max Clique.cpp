@@ -1,4 +1,4 @@
-//Max Clique
+//朴素写法
 int n, Max[maxn], adj[maxn][maxn], e[maxn][maxn], ans;
 bool Dfs(int cur, int tot){
   if(!cur){
@@ -32,7 +32,7 @@ int MaxClique(){
   }
   return ans;
 }
-/*--------------------------------------------------------------------------------*/
+//高效写法
 typedef bool BB[N]; struct Maxclique {
 	const BB *e; int pk, level; const float Tlimit;
 	struct Vertex { int i, d; Vertex (int i) : i (i), d (0) {}};
