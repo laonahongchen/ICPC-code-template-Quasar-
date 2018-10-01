@@ -1,4 +1,3 @@
-//Round and Square Tree
 //圆点:原图中的点，方点:每个点双连通分量新添加的的点。
 //nodecnt从n+1开始作为方点的编号
 void Targan(int x, int last){
