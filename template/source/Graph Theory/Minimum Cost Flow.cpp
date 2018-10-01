@@ -1,4 +1,3 @@
-Minimum Cost Flow
 bool Spfa(){
 	memset(vis,0,sizeof(vis));
 	memset(dis,0x3f,sizeof(dis));
