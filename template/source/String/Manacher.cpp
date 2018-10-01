@@ -1,4 +1,3 @@
-//Manacher
 void Manacher(int n){
     for(int i = n;i >= 1;--i){
         if(i & 1)str[i] = '#';
@@ -11,4 +10,3 @@ void Manacher(int n){
         if(i + d[i] > mx)mx = i + d[i], pos = i;
     }
 }
-
