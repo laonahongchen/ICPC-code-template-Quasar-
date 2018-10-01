@@ -1,4 +1,3 @@
-Lagrange's Interpolation
 void Init(){
   inv[0] = 1;
   for(int i = 1;i < maxn;++i)inv[i] = 1LL * i * inv[i - 1] % Mo;
