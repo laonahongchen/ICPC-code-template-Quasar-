@@ -1,10 +1,3 @@
-/*
-Suffix Array
-求出现k次的最长重复子串：
-二分答案,将后缀分成若干组,根据height判断是否有一个组的后缀个数不小于k。
-
-本质不同的子串的个数:sum{n-sa[i]-height[i]}
-*/
 int Len;
 int sa[maxn], Rank[maxn], h[maxn], r[maxn], wa[maxn << 1], wb[maxn << 1], Ws[maxn];
 bool cmp(int *y, int a, int b, int len){
