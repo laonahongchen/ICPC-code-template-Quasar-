@@ -1,7 +1,6 @@
-Slope Optimization
 //Hdu 3507 Print Article 
-//����С�ڻ�����ж�ά��б�ʵ������ǵݼ���
-//���ݵ�����ݼ��жϴ�ȡ���׻��Ƕ�β��
+//根据小于或大于判断维护斜率递增还是递减。
+//根据递增或递减判断答案取队首还是队尾。
 int n, m, Q[maxn];
 ll f[maxn], sum[maxn];
 ll Calc(int j, int i){
