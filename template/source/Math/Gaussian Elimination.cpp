@@ -1,4 +1,3 @@
-Gaussian Elimination
 void Guass(int N){
     for(int i = 1, j, k;i <= N;++i){
         for(j = i + 1, k = i;j <= N;++j){
