@@ -1,4 +1,4 @@
-//51nod 1220 Ô¼ÊýÖ®ºÍ   
+//51nodçº¦æ•°ä¸ªæ•°å’Œ
 const int Mo = 1e9 + 7;
 const int N = 1e6 +  10;
 const int inv2 = 500000004;
