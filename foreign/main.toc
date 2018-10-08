@@ -1,0 +1,61 @@
+\contentsline {section}{\numberline {1}数学}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}快速求逆元(内含exgcd)}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}中国剩余定理}{2}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}小步大步}{2}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Miller Rabin 素数测试}{2}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}Pollard Rho 大数分解}{2}{subsection.1.5}
+\contentsline {subsection}{\numberline {1.6}快速数论变换(zky)}{3}{subsection.1.6}
+\contentsline {subsection}{\numberline {1.7}原根}{3}{subsection.1.7}
+\contentsline {subsection}{\numberline {1.8}线性递推}{3}{subsection.1.8}
+\contentsline {subsection}{\numberline {1.9}直线下整点个数}{4}{subsection.1.9}
+\contentsline {subsection}{\numberline {1.10}高斯消元}{4}{subsection.1.10}
+\contentsline {subsection}{\numberline {1.11}1e9+7 FFT}{4}{subsection.1.11}
+\contentsline {subsection}{\numberline {1.12}FWT}{5}{subsection.1.12}
+\contentsline {subsection}{\numberline {1.13}自适应辛普森}{5}{subsection.1.13}
+\contentsline {subsection}{\numberline {1.14}多项式求根}{5}{subsection.1.14}
+\contentsline {section}{\numberline {2}数据结构}{6}{section.2}
+\contentsline {subsection}{\numberline {2.1}lct}{6}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}树上莫队}{6}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}树状数组kth}{7}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}虚树}{7}{subsection.2.4}
+\contentsline {section}{\numberline {3}图论}{7}{section.3}
+\contentsline {subsection}{\numberline {3.1}点双连通分量(lyx)}{7}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Hopcoft-Karp求最大匹配}{8}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}KM带权匹配}{8}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}2-SAT问题}{9}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}有根树的同构}{9}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Dominator Tree}{9}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7}无向图最小割}{10}{subsection.3.7}
+\contentsline {subsection}{\numberline {3.8}带花树}{11}{subsection.3.8}
+\contentsline {section}{\numberline {4}字符串}{11}{section.4}
+\contentsline {section}{\numberline {5}计算几何}{11}{section.5}
+\contentsline {subsection}{\numberline {5.1}二维几何}{11}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}阿波罗尼茨圆}{13}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}三角形与圆交}{13}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}圆并}{13}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}整数半平面交}{14}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}半平面交}{14}{subsection.5.6}
+\contentsline {subsection}{\numberline {5.7}三角形}{15}{subsection.5.7}
+\contentsline {subsection}{\numberline {5.8}经纬度求球面最短距离}{15}{subsection.5.8}
+\contentsline {subsection}{\numberline {5.9}长方体表面两点最短距离}{15}{subsection.5.9}
+\contentsline {subsection}{\numberline {5.10}点到凸包切线}{15}{subsection.5.10}
+\contentsline {subsection}{\numberline {5.11}直线与凸包的交点}{16}{subsection.5.11}
+\contentsline {subsection}{\numberline {5.12}平面最近点对}{16}{subsection.5.12}
+\contentsline {subsection}{\numberline {5.13}三维几何}{16}{subsection.5.13}
+\contentsline {section}{\numberline {6}其他}{17}{section.6}
+\contentsline {subsection}{\numberline {6.1}最小树形图}{17}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}DLX}{17}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}某年某月某日是星期几}{18}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}枚举大小为$k$的子集}{18}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}环状最长公共子串}{18}{subsection.6.5}
+\contentsline {subsection}{\numberline {6.6}LLMOD STL内存清空 开栈}{19}{subsection.6.6}
+\contentsline {subsection}{\numberline {6.7}vimrc}{19}{subsection.6.7}
+\contentsline {subsection}{\numberline {6.8}上下界网络流}{19}{subsection.6.8}
+\contentsline {subsection}{\numberline {6.9}上下界费用流}{19}{subsection.6.9}
+\contentsline {subsection}{\numberline {6.10}Bernoulli数}{20}{subsection.6.10}
+\contentsline {subsection}{\numberline {6.11}Java Hints}{20}{subsection.6.11}
+\contentsline {section}{\numberline {7}数学}{20}{section.7}
+\contentsline {subsection}{\numberline {7.1}常用数学公式}{20}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}平面几何公式}{21}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}积分表}{22}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.4}博弈游戏}{22}{subsection.7.4}

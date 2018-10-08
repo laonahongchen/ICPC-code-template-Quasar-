@@ -1,0 +1,12 @@
+set ru nu cin ts=4 sts=4 sw=4 hls is ar acd bs=2 mouse=a ls=2 fdm=syntax fdl=100
+set makeprg=g++\ %:r.cpp\ -o\ %:r\ -g\ -std=c++11\ -Wall\ -Wextra\ -Wconversion
+nmap <C-A> ggVG
+vmap <C-C> "+y
+noremap <C-V> "+P
+map <F3> :vnew %:r.in<cr>
+map <F4> :!gedit %<cr>
+map <F5> :!time ./%:r<cr>
+map <F8> :!time ./%:r < %:r.in<cr>
+map <F9> :make<cr>
+map <C-F9> :!g++ %:r.cpp -o %:r -g -O2 -std=c++11<cr>
+map <F10> :!gdb ./%:r<cr>

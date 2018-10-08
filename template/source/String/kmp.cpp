@@ -1,4 +1,3 @@
-//KMP 
 void Gnext(){
   for(int i = 2, j;a[i] != '\0';++i){
     j = nxt[i - 1];

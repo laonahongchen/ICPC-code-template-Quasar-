@@ -1,0 +1,619 @@
+%文档类型
+\documentclass[landscape,twocolumn,a4paper]{article}
+\setlength{\columnsep}{0.5cm}
+\setlength{\columnseprule}{0.03cm}
+
+%引用包裹
+\usepackage{bm}
+\usepackage{cmap}
+\usepackage{ctex}
+\usepackage{cite}
+\usepackage{color}
+\usepackage{float}
+\usepackage{xeCJK}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{enumerate}
+\usepackage{indentfirst}
+\usepackage[cache=false]{minted}
+\usepackage{fontspec}
+\usepackage{pdfpages}
+\usepackage{fancyhdr}
+\usepackage[table]{xcolor}
+\usepackage{booktabs}
+\usepackage{harpoon}
+\usepackage{titlesec}
+%代码高亮
+%\geometry{margin=1in}
+\geometry{a4paper,left=1.0cm,right=1.0cm,top=1.3cm,bottom=0.5cm}
+\setmonofont{Consolas}
+%字体设置
+\setmainfont{Consolas}
+\pagestyle{headings}
+\hypersetup{hidelinks}
+%\fontsize{5}{0}
+
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black
+}
+
+%\titlespacing{\section}{0cm}{*0}{*0}
+%\titlespacing{\subsubsection}{0cm}{*0}{*0}
+%\titlespacing{\subsection}{0cm}{*0}{*0}
+\titlespacing*{\section} {0pt}{0pt}{0pt}
+\titlespacing*{\subsection} {0pt}{0pt}{0pt}
+\titlespacing*{\subsubsection} {0pt}{-1pt}{-1pt}
+\titleformat{\section}{\normalsize}{}{0pt}{}
+\titleformat{\subsection}{\small}{}{0pt}{}
+\titleformat{\subsubsection}{\small}{}{0pt}{}
+
+\newcommand{\cppcode}[1]{
+	\inputminted[mathescape,
+	tabsize=2,
+	style=xcode,
+	baselinestretch=0.9,
+	%linenos,
+	%frame=single,
+	autogobble,
+	framesep=0.5mm,
+	breakaftergroup=true,
+	breakautoindent=true,
+	breakbytoken=true,
+	breaklines=true,
+	numbersep=1mm,
+	fontsize=\small
+	]{cpp}{source/#1}
+}
+\newcommand{\javacode}[1]{
+	\inputminted[mathescape,
+	tabsize=2,
+	%linenos,
+	%frame=single,
+	framesep=2mm,
+	autogobble,
+	numbersep=1mm,
+	baselinestretch=0.9,
+	breakaftergroup=true,
+	breakautoindent=true,
+	breakbytoken=true,
+	breaklines=true,
+	fontsize=\small
+	]{java}{source/#1}
+}
+
+\newcommand{\vimcode}[1]{
+	\inputminted[mathescape,
+	tabsize=2,
+	%linenos,
+	%frame=single,
+	framesep=2mm,
+	breakaftergroup=true,
+	breakautoindent=true,
+	breakbytoken=true,
+	breaklines=true,
+	fontsize=\small
+	]{vim}{source/#1}
+}
+\begin{document}
+\begin{titlepage}
+	\title{代码库}
+	\author{QuasaR}
+%	\date{\today}
+	\maketitle
+\end{titlepage}
+\tableofcontents
+\small
+\section{数学}
+
+	\subsection{快速求逆元(内含exgcd)}
+	\indent 使用条件：$x \in [0, mod)$并且$x$与$mod$互质
+	\cppcode{number-theory/extended-euclid.cpp}
+	\cppcode{number-theory/inverse.cpp}
+
+
+	\subsection{中国剩余定理}
+	返回结果：$x \equiv r_i (mod \ p_i) \ (0 \leq i < n)$
+	\cppcode{number-theory/chinese-remainder-theorem.cpp}
+	\cppcode{number-theory/china2.cpp}
+
+	\subsection{小步大步}
+	返回结果：$a^x=b \ (mod \ p)$
+	\indent 使用条件：$p$为质数
+	\cppcode{number-theory/exBSGS.cpp}
+
+	\subsection{Miller Rabin 素数测试}
+	\cppcode{number-theory/miller-rabin.cpp}
+
+	\subsection{Pollard Rho 大数分解}
+	\cppcode{number-theory/pollard-rho.cpp}
+
+	\subsection{快速数论变换(zky)}
+	返回结果：$c_i=\sum_{0 \leq j \leq i} a_j \cdot b_{i-j} (mod) \ (0 \leq i < n)$
+	\cppcode{number-theory/number-theoretic-transform.cpp}
+
+	\subsection{原根}
+	\cppcode{number-theory/primeroot.cpp}
+
+	\subsection{线性递推}
+	\cppcode{number-theory/linear-recurrence.cpp}
+
+	\subsection{直线下整点个数}
+	返回结果：$\sum_{0 \leq i < n} \lfloor \frac{a + b \cdot i}{m} \rfloor$
+	\indent 使用条件：$n, m > 0$，$a, b \geq 0$
+	\indent 时间复杂度：$\mathcal{O}(n log n)$
+	\cppcode{number-theory/lattice-count.cpp}
+
+	\subsection{高斯消元}
+	\cppcode{numerical-algorithm/Gauss.cpp}
+
+	\subsection{1e9+7 FFT}
+	\cppcode{numerical-algorithm/fft.cpp}
+
+	\subsection{FWT}
+	\cppcode{number-theory/fwt.cpp}
+
+	\subsection{自适应辛普森}
+	\cppcode{numerical-algorithm/adaptive-simpson.cpp}
+
+	\subsection{多项式求根}
+	\cppcode{numerical-algorithm/polyroot.cpp}
+
+
+\section{数据结构}
+
+	\subsection{lct}
+	\cppcode{Data-Structure/LCT.cpp}
+
+	%\subsection{k-d树}
+	%\cppcode{Data-Structure/K-d-Tree.cpp}
+
+	\subsection{树上莫队}
+	\cppcode{Data-Structure/modui_tree_ver.cpp}
+
+	\subsection{树状数组kth}
+	\cppcode{Data-Structure/fenwicktree.cpp}
+
+	\subsection{虚树}
+	\cppcode{Data-Structure/virtualtree.cpp}
+
+	%\subsection{lct}
+	%\cppcode{lyx-ds/LCT.cpp}
+
+
+\section{图论}
+
+	\subsection{点双连通分量(lyx)}
+	\cppcode{Graph-Algorithm/bcc.cpp}
+
+	\subsection{Hopcoft-Karp求最大匹配}
+	\cppcode{Graph-Algorithm/Maximum-Matching-Hopcroft-Karp.cpp}
+
+	\subsection{KM带权匹配}
+	\noindent \textbf{注意事项：}最小权完美匹配，复杂度为$\mathcal{O}(|V|^3)$。
+	\cppcode{Graph-Algorithm/Maximum-Weight-Matching.cpp}
+
+	\subsection{2-SAT问题}
+	\cppcode{Graph-Algorithm/Two-Satisfiability.cpp}
+
+	\subsection{有根树的同构}
+	\cppcode{Graph-Algorithm/Rooted-Tree-Isomorphism.cpp}
+
+	\subsection{Dominator Tree}
+	\cppcode{Graph-Algorithm/dominator.cpp}
+
+	\subsection{无向图最小割}
+	\cppcode{Graph-Algorithm/Minimum-Cut-Stoer-Wagner.cpp}
+
+	\subsection{带花树}
+	\cppcode{Graph-Algorithm/Maximum-Matching-Blossom.cpp}
+
+\section{字符串}
+
+	%\subsection{KMP算法}
+	%\cppcode{temp_ypm/KMP-poj3461.cpp}
+\iffalse
+	\subsection{扩展KMP算法}
+	\cppcode{temp_ypm/exKMP-hdu2594.cpp}
+
+	\subsection{AC自动机}
+	\cppcode{temp_ypm/acauto.cpp}
+
+	\subsection{后缀自动机}
+		\subsubsection{广义后缀自动机(多串)}
+		\noindent \textbf{注意事项：}空间是插入字符串总长度的2倍并请注意字符集大小。
+		\cppcode{temp_ypm/gy sam.cpp}
+
+		\subsubsection{sam-ypm}
+			\subsubsection*{sam-nsubstr}
+			\cppcode{temp_ypm/SAM-NSUBSTR.cpp}
+			\subsubsection*{sam-lcs}
+			\cppcode{temp_ypm/SAM-LCS2.cpp}
+
+	\subsection{后缀数组}
+	\noindent \textbf{注意事项：}$\mathcal{O}(n\log n)$倍增构造。
+	\cppcode{temp_ypm/SA.cpp}
+
+	\subsection{Manacher}
+	\noindent \textbf{注意事项：}1-based算法，请注意下标。
+	\cppcode{temp_ypm/manacher-poj3974.cpp}
+
+	\subsection{循环串的最小表示}
+	\noindent \textbf{注意事项：}0-Based算法，请注意下标。
+	\cppcode{temp_ypm/minimumpresentation.cpp}
+\fi
+
+\section{计算几何}
+
+	\subsection{二维几何}
+%	\cppcode{Geometry/8 Geo2D_simple.cpp}
+	\cppcode{geometry/Geo2D.cpp}
+%	\subsection{凸包}
+%	\cppcode{Geometry/convex.cpp}
+
+	\subsection{阿波罗尼茨圆}
+	\cppcode{Geometry/3 abolonis.cpp}
+
+	\subsection{三角形与圆交}
+	\cppcode{geometry/areaCT.cpp}
+
+	\subsection{圆并}
+	\cppcode{geometry/CircleArea.cpp}
+
+	\subsection{整数半平面交}
+	\cppcode{geometry/HPI_integer.cpp}
+	\subsection{半平面交}
+	\cppcode{geometry/HalfPlaneIntersection.cpp}
+
+	\subsection{三角形}
+	\cppcode{geometry/Triangle.cpp}
+
+	\subsection{经纬度求球面最短距离}
+	\cppcode{Geometry/12.cpp}
+
+	\subsection{长方体表面两点最短距离}
+	\cppcode{Geometry/13.cpp}
+
+	\subsection{点到凸包切线}
+	\cppcode{Geometry/14.cpp}
+
+	\subsection{直线与凸包的交点}
+	\cppcode{Geometry/15.cpp}
+
+	\subsection{平面最近点对}
+	\cppcode{geometry/nearest.cpp}
+
+	\subsection{三维几何}
+	\cppcode{geometry/3DGeo.cpp}
+
+
+\section{其他}
+
+	\subsection{最小树形图}
+	\cppcode{miscellany/mintreegraph.cpp}
+
+	\subsection{DLX}
+	\cppcode{miscellany/DLX.cpp}
+
+	\subsection{某年某月某日是星期几}
+	\cppcode{miscellany/what-day-is-today.cpp}
+
+	\subsection{枚举大小为$k$的子集}
+	使用条件：$k > 0$
+	\cppcode{miscellany/subset-of-size-k.cpp}
+
+	\subsection{环状最长公共子串}
+	\cppcode{miscellany/cyclic-longest-common-string.cpp}
+
+	\subsection{LLMOD STL内存清空 开栈}
+	\cppcode{miscellany/LLMOD.cpp}
+	\cppcode{Hint/STL-memory-release.cpp}
+	\cppcode{Hint/openstack.cpp}
+
+	\subsection{vimrc}
+	\vimcode{Hint/vimrc}
+
+	\subsection{上下界网络流}
+
+	\subsubsection*{无源汇的上下界可行流}
+	建立超级源点$S^*$和超级汇点$T^*$，对于原图每条边$(u,v)$在新网络中连如下三条边：$S^* \rightarrow v$，容量为$B(u,v)$；$u \rightarrow T^*$，容量为$B(u,v)$；$u \rightarrow v$，容量为$C(u,v) - B(u,v)$。最后求新网络的最大流，判断从超级源点$S^*$出发的边是否都满流即可，边$(u,v)$的最终解中的实际流量为$G(u,v)+B(u,v)$。
+
+	\subsubsection*{有源汇的上下界可行流}
+	从汇点$T$到源点$S$连一条上界为$\infty$，下界为$0$的边。按照\textbf{无源汇的上下界可行流}一样做即可，流量即为$T \rightarrow S$边上的流量。
+
+	\subsubsection*{有源汇的上下界最大流}
+	\begin{enumerate}
+		\item 在\textbf{有源汇的上下界可行流}中，从汇点$T$到源点$S$的边改为连一条上界为$\infty$，下届为$x$的边。$x$满足二分性质，找到最大的$x$使得新网络存在\textbf{无源汇的上下界可行流}即为原图的最大流。
+		\item 从汇点$T$到源点$S$连一条上界为$\infty$，下界为$0$的边，变成无源汇的网络。按照\textbf{无源汇的上下界可行流}的方法，建立超级源点$S^*$和超级汇点$T^*$，求一遍$S^* \rightarrow T^*$的最大流，再将从汇点$T$到源点$S$的这条边拆掉，求一次$S \rightarrow T$的最大流即可。
+	\end{enumerate}
+
+	\subsubsection*{有源汇的上下界最小流}
+	\begin{enumerate}
+		\item 在\textbf{有源汇的上下界可行流}中，从汇点$T$到源点$S$的边改为连一条上界为$x$，下界为$0$的边。$x$满足二分性质，找到最小的$x$使得新网络存在\textbf{无源汇的上下界可行流}即为原图的最小流。
+		\item 按照\textbf{无源汇的上下界可行流}的方法，建立超级源点$S^*$与超级汇点$T^*$，求一遍$S^* \rightarrow T^*$的最大流，但是注意这一次不加上汇点$T$到源点$S$的这条边，即不使之改为无源汇的网络去求解。求完后，再加上那条汇点$T$到源点$S$上界$\infty$的边。因为这条边下界为$0$，所以$S^*$，$T^*$无影响，再直接求一次$S^* \rightarrow T^*$的最大流。若超级源点$S^*$出发的边全部满流，则$T \rightarrow S$边上的流量即为原图的最小流，否则无解。
+	\end{enumerate}
+
+	\subsection{上下界费用流}
+	\noindent 设汇$t$，源$s$，超级源$S$，超级汇$T$，本质是每条边的下界为1，上界为MAX，跑一遍有源汇的上下界最小费用最小流。（因为上界无穷大，所以只要满足所有下界的最小费用最小流）
+
+	\begin{enumerate}
+		\item 对每个点$x$：从$x$到$t$连一条费用为0，流量为MAX的边，表示可以任意停止当前的剧情（接下来的剧情从更优的路径去走，画个样例就知道了）
+		\item 对于每一条边权为z的边x->y：
+
+		\begin{itemize}
+			\item 从S到y连一条流量为1，费用为z的边，代表这条边至少要被走一次。
+			\item 从x到y连一条流量为MAX，费用为z的边，代表这条边除了至少走的一次之外还可以随便走。
+			\item 从x到T连一条流量为1，费用为0的边。（注意是每一条x->y的边都连，或者你可以记下x的出边数Kx，连一次流量为Kx，费用为0的边）。
+
+		\end{itemize}
+	\end{enumerate}
+	建完图后从S到T跑一遍费用流，即可。（当前跑出来的就是满足上下界的最小费用最小流了）
+
+	\subsection{Bernoulli数}
+	\input{source/Hint/Bernoulli-Number.tex}
+
+	\subsection{Java Hints}
+	\javacode{Hint/Java-Hints.java}
+
+\section{数学}
+
+\subsection{常用数学公式}
+
+	\subsubsection*{求和公式}
+
+	\begin{enumerate}
+		\item $\sum_{k=1}^{n}(2k-1)^2 = \frac{n(4n^2-1)}{3}	$
+		\item $\sum_{k=1}^{n}k^3 = [\frac{n(n+1)}{2}]^2	$
+		\item $\sum_{k=1}^{n}(2k-1)^3 = n^2(2n^2-1)	$
+		\item $\sum_{k=1}^{n}k^4 = \frac{n(n+1)(2n+1)(3n^2+3n-1)}{30}  $
+		\item $\sum_{k=1}^{n}k^5 = \frac{n^2(n+1)^2(2n^2+2n-1)}{12}	$
+		\item $\sum_{k=1}^{n}k(k+1) = \frac{n(n+1)(n+2)}{3}	$
+		\item $\sum_{k=1}^{n}k(k+1)(k+2) = \frac{n(n+1)(n+2)(n+3)}{4} $
+		\item $\sum_{k=1}^{n}k(k+1)(k+2)(k+3) = \frac{n(n+1)(n+2)(n+3)(n+4)}{5} $
+	\end{enumerate}
+
+	\subsubsection*{斐波那契数列}
+
+	\begin{enumerate}
+		\item $fib_0=0, fib_1=1, fib_n=fib_{n-1}+fib_{n-2}$
+		\item $fib_{n+2} \cdot fib_n-fib_{n+1}^2=(-1)^{n+1}$
+		\item $fib_{-n}=(-1)^{n-1}fib_n$
+		\item $fib_{n+k}=fib_k \cdot fib_{n+1}+fib_{k-1} \cdot fib_n$
+		\item $gcd(fib_m, fib_n)=fib_{gcd(m, n)}$
+		\item $fib_m|fib_n^2\Leftrightarrow nfib_n|m$
+	\end{enumerate}
+
+	\subsubsection*{错排公式}
+
+	\begin{enumerate}
+		\item $D_n = (n-1)(D_{n-2}-D_{n-1})$
+		\item $D_n = n! \cdot (1-\frac{1}{1!}+\frac{1}{2!}-\frac{1}{3!}+\ldots+\frac{(-1)^n}{n!})$
+	\end{enumerate}
+
+	\subsubsection*{莫比乌斯函数}
+	\iffalse
+	$\mu(n) = \begin{cases}
+	1 & \text{若}n=1\\
+	(-1)^k & \text{若}n\text{无平方数因子，且}n = p_1p_2\dots p_k\\
+	0 & \text{若}n\text{有大于}1\text{的平方数因数}
+	\end{cases}$
+	$\sum_{d|n}{\mu(d)} = \begin{cases}
+	1 & \text{若}n=1\\
+	0 & \text{其他情况}
+	\end{cases}$
+	\fi
+	$g(n) = \sum_{d|n}{f(d)} \Leftrightarrow f(n) = \sum_{d|n}{\mu(d)g(\frac{n}{d})}$
+	$g(x) = \sum_{n=1}^{[x]}f(\frac{x}{n}) \Leftrightarrow f(x) = \sum_{n=1}^{[x]}{\mu(n)g(\frac{x}{n})}$
+
+	\subsubsection*{伯恩赛德引理}
+	设$G$是一个有限群，作用在集合$X$上。对每个$g$属于$G$，令$X^g$表示$X$中在$g$作用下的不动元素，轨道数（记作$|X/G|$）由如下公式给出：
+	$|X/G| = \frac{1}{|G|}\sum_{g \in G}|X^g|.\,$
+
+	\subsubsection*{五边形数定理}
+
+	设$p(n)$是$n$的拆分数，有$p(n) = \sum_{k \in \mathbb{Z} \setminus \{0\}} (-1)^{k - 1} p\left(n - \frac{k(3k - 1)}{2}\right)$
+
+	\subsubsection*{树的计数}
+
+	\begin{enumerate}
+		\item 有根树计数：$n+1$个结点的有根树的个数为
+		$a_{n+1} = \frac{\sum_{j=1}^{n}{j \cdot a_j \cdot{S_{n, j}}}}{n}$
+		其中，
+		$S_{n, j} = \sum_{i=1}^{n/j}{a_{n+1-ij}} = S_{n-j, j} + a_{n+1-j}$
+		\item 无根树计数：当$n$为奇数时，$n$个结点的无根树的个数为
+		$a_n-\sum_{i=1}^{n/2}{a_ia_{n-i}}$
+		当$n$为偶数时，$n$个结点的无根树的个数为
+		$a_n-\sum_{i=1}^{n/2}{a_ia_{n-i}}+\frac{1}{2}a_{\frac{n}{2}}(a_{\frac{n}{2}}+1)$
+		\item $n$个结点的完全图的生成树个数为
+		$n^{n-2}$
+		\item 矩阵－树定理：图$G$由$n$个结点构成，设$\bm{A}[G]$为图$G$的邻接矩阵、$\bm{D}[G]$为图$G$的度数矩阵，则图$G$的不同生成树的个数为$\bm{C}[G] = \bm{D}[G] - \bm{A}[G]$的任意一个$n-1$阶主子式的行列式值。
+	\end{enumerate}
+
+	\subsubsection*{欧拉公式}
+
+	平面图的顶点个数、边数和面的个数有如下关系：
+	$V - E + F = C+ 1$
+	\indent 其中，$V$是顶点的数目，$E$是边的数目，$F$是面的数目，$C$是组成图形的连通部分的数目。当图是单连通图的时候，公式简化为：
+	$V - E + F = 2$
+
+	\subsubsection*{皮克定理}
+
+	给定顶点坐标均是整点（或正方形格点）的简单多边形，其面积$A$和内部格点数目$i$、边上格点数目$b$的关系：
+	$A = i + \frac{b}{2} - 1$
+
+	\subsubsection*{牛顿恒等式}
+
+	设$\prod_{i = 1}^n{(x - x_i)} = a_n + a_{n - 1} x + \dots + a_1 x^{n - 1} + a_0 x^n$
+	$p_k = \sum_{i = 1}^n{x_i^k}$
+	则$a_0 p_k + a_1 p_{k - 1} + \cdots + a_{k - 1} p_1 + k a_k = 0$
+
+	特别地，对于$|\bm{A} - \lambda \bm{E}| = (-1)^n(a_n + a_{n - 1} \lambda + \cdots + a_1 \lambda^{n - 1} + a_0 \lambda^n)$
+	有$p_k = Tr(\bm{A}^k)$
+
+
+	\subsection{平面几何公式}
+
+	\subsubsection*{三角形}
+
+	\begin{enumerate}
+		\item 面积
+		$S=\frac{a \cdot H_a}{2}=\frac{ab \cdot sinC}{2}=\sqrt{p(p-a)(p-b)(p-c)}$
+		\item 中线
+		$M_a=\frac{\sqrt{2(b^2+c^2)-a^2}}{2}=\frac{\sqrt{b^2+c^2+2bc \cdot cosA}}{2}$
+		\item 角平分线
+		$T_a=\frac{\sqrt{bc \cdot [(b+c)^2-a^2]}}{b+c}=\frac{2bc}{b+c}cos\frac{A}{2}$
+		\item 高线
+		$H_a=bsinC=csinB=\sqrt{b^2-(\frac{a^2+b^2-c^2}{2a})^2}$
+		\item 内切圆半径
+		\begin{align*}
+		r&=\frac{S}{p}=\frac{arcsin\frac{B}{2} \cdot sin\frac{C}{2}}{sin\frac{B+C}{2}}=4R \cdot sin\frac{A}{2}sin\frac{B}{2}sin\frac{C}{2}\\
+		&=\sqrt{\frac{(p-a)(p-b)(p-c)}{p}}=p \cdot tan\frac{A}{2}tan\frac{B}{2}tan\frac{C}{2}
+		\end{align*}
+		\item 外接圆半径
+		$R=\frac{abc}{4S}=\frac{a}{2sinA}=\frac{b}{2sinB}=\frac{c}{2sinC}$
+	\end{enumerate}
+
+	\subsubsection*{四边形}
+
+	$D_1, D_2$为对角线，$M$对角线中点连线，$A$为对角线夹角，$p$为半周长
+	\begin{enumerate}
+		\item $a^2+b^2+c^2+d^2=D_1^2+D_2^2+4M^2$
+		\item $S=\frac{1}{2}D_1D_2sinA$
+		\item 对于圆内接四边形
+		$ac+bd=D_1D_2$
+		\item 对于圆内接四边形
+		$S=\sqrt{(p-a)(p-b)(p-c)(p-d)}$
+	\end{enumerate}
+
+	\subsubsection*{正$n$边形}
+
+	$R$为外接圆半径，$r$为内切圆半径
+	\begin{enumerate}
+		\item 中心角
+		$A=\frac{2\pi}{n}$
+		\item 内角
+		$C=\frac{n-2}{n}\pi$
+		\item 边长
+		$a=2\sqrt{R^2-r^2}=2R \cdot sin\frac{A}{2}=2r \cdot tan\frac{A}{2}$
+		\item 面积
+		$S=\frac{nar}{2}=nr^2 \cdot tan\frac{A}{2}=\frac{nR^2}{2} \cdot sinA=\frac{na^2}{4 \cdot tan\frac{A}{2}}$
+	\end{enumerate}
+
+	\subsubsection*{圆}
+
+	\begin{enumerate}
+		\item 弧长
+		$l=rA$
+		\item 弦长
+		$a=2\sqrt{2hr-h^2}=2r\cdot sin\frac{A}{2}$
+		\item 弓形高
+		$h=r-\sqrt{r^2-\frac{a^2}{4}}=r(1-cos\frac{A}{2})=\frac{1}{2} \cdot arctan\frac{A}{4}$
+		\item 扇形面积
+		$S_1=\frac{rl}{2}=\frac{r^2A}{2}$
+		\item 弓形面积
+		$S_2=\frac{rl-a(r-h)}{2}=\frac{r^2}{2}(A-sinA)$
+	\end{enumerate}
+
+	\subsubsection*{棱柱}
+
+	\begin{enumerate}
+		\item 体积
+		$V=Ah$
+		$A$为底面积，$h$为高
+		\item 侧面积
+		$S=lp$
+		$l$为棱长，$p$为直截面周长
+		\item 全面积
+		$T=S+2A$
+	\end{enumerate}
+
+	\subsubsection*{棱锥}
+
+	\begin{enumerate}
+		\item 体积
+		$V=Ah$
+		$A$为底面积，$h$为高
+		\item 正棱锥侧面积
+		$S=lp$
+		$l$为棱长，$p$为直截面周长
+		\item 正棱锥全面积
+		$T=S+2A$
+	\end{enumerate}
+
+	\subsubsection*{棱台}
+
+	\begin{enumerate}
+		\item 体积
+		$V=(A_1+A_2+\sqrt{A_1A_2}) \cdot \frac{h}{3}$
+		$A_1,A_2$为上下底面积，$h$为高    正棱台侧面积
+		$S=\frac{p_1+p_2}{2}l$
+		$p_1,p_2$为上下底面周长，$l$为斜高
+		\item 正棱台全面积
+		$T=S+A_1+A_2$
+	\end{enumerate}
+
+	\subsubsection*{圆柱}
+
+	\begin{enumerate}
+		\item 侧面积
+		$S=2\pi rh$
+		\item 全面积
+		$T=2\pi r(h+r)$
+		\item 体积
+		$V=\pi r^2h$
+	\end{enumerate}
+
+	\subsubsection*{圆锥}
+
+	\begin{enumerate}
+		\item 母线
+		$l=\sqrt{h^2+r^2}$
+		\item 侧面积
+		$S=\pi rl$    全面积
+		$T=\pi r(l+r)$
+		\item 体积
+		$V=\frac{\pi}{3} r^2h$
+	\end{enumerate}
+
+	\subsubsection*{圆台}
+
+	\begin{enumerate}
+		\item 母线
+		$l=\sqrt{h^2+(r_1-r_2)^2}$
+		\item 侧面积
+		$S=\pi(r_1+r_2)l$    全面积
+		$T=\pi r_1(l+r_1)+\pi r_2(l+r_2)$
+		\item 体积
+		$V=\frac{\pi}{3}(r_1^2+r_2^2+r_1r_2)h$
+	\end{enumerate}
+
+	\subsubsection*{球台}
+
+	\begin{enumerate}
+		\item 侧面积
+		$S=2\pi rh$   全面积
+		$T=\pi(2rh+r_1^2+r_2^2)$
+		\item 体积
+		$V=\frac{\pi h[3(r_1^2+r_2^2)+h^2]}{6}$
+	\end{enumerate}
+
+	\subsubsection*{球扇形}
+
+	\begin{enumerate}
+		\item 全面积
+		$T=\pi r(2h+r_0)$
+		$h$为球冠高，$r_0$为球冠底面半径
+		\item 体积
+		$V=\frac{2}{3}\pi r^2h$
+	\end{enumerate}
+
+	\subsection{积分表}
+	\input{source/calculustable.tex}
+
+	\subsection{博弈游戏}
+	\input{source/Hint/Game-Theory.tex}
+\end{document}
