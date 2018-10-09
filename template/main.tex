@@ -25,9 +25,9 @@
 \usepackage{harpoon}
 %代码高亮
 \geometry{margin=1in}
-\setmonofont{Ubuntu Mono}
+\setmonofont{Consolas}
 %字体设置
-\setmainfont{Ubuntu Mono}
+\setmainfont{Consolas}
 %\setCJKmonofont{SimSun}
 %\setCJKmainfont[BoldFont={SimSun}]{SimSun}
 
@@ -448,53 +448,12 @@ F_{t + 1}(x) &\equiv F_t(x) - \dfrac{F_t(x) * A(x) - 1}{A(x)} \\
 \subsection{Manacher}
 \cppcode{String/Manacher.cpp}
 
-
-
 \subsection{循环串的最小表示}
 \noindent \textbf{注意事项：}0-Based算法，请注意下标。
 %\cppcode{String-Algorithm/Minimum-Representation.cpp}
 \cppcode{string_ypm/minimumpresentation.cpp}
 
 \iffalse
-
-\subsection{KMP算法}
-
-\cppcode{string_ypm/KMP-poj3461.cpp}
-
-\subsection{扩展KMP算法}
-
-%返回结果：$$next_i = lcp(text, text_{i \dots n-1})$$
-
-%\cppcode{string-manipulation/ExtKMP.cpp}
-\cppcode{string_ypm/exKMP-hdu2594.cpp}
-
-\subsection{AC自动机}
-
-%\cppcode{string-manipulation/ACmachine.cpp}
-\cppcode{string_ypm/acauto.cpp}
-\subsection{后缀自动机}
-
-\subsubsection{广义后缀自动机(多串)}
-\noindent \textbf{注意事项：}空间是插入字符串总长度的2倍并请注意字符集大小。
-\cppcode{string_ypm/gy sam.cpp}
-
-\subsubsection{sam-ypm}
-\subsubsection*{sam-nsubstr}
-\cppcode{string_ypm/SAM-NSUBSTR.cpp}
-\subsubsection*{sam-lcs}
-\cppcode{string_ypm/SAM-LCS2.cpp}
-
-\subsection{后缀数组}
-\noindent \textbf{注意事项：}$\mathcal{O}(n\log n)$倍增构造。
-%\cppcode{String-Algorithm/Suffix-Array.cpp}
-\cppcode{string_ypm/SA.cpp}
-\noindent \textbf{注意：}$\mathcal{O}(n)$线性构造，常数大,约为倍增的0.5-0.6倍
-\cppcode{string_ypm/dc3-uoj34.cpp}
-
-\subsection{回文自动机}
-\noindent \textbf{注意事项：}请注意字符集大小。
-%\cppcode{String-Algorithm/Palindromic-Automaton.cpp}
-\cppcode{string_ypm/PAM.cpp}
 \subsection{Manacher}
 \noindent \textbf{注意事项：}1-based算法，请注意下标。
 \cppcode{string_ypm/manacher-poj3974.cpp}
@@ -517,8 +476,7 @@ F_{t + 1}(x) &\equiv F_t(x) - \dfrac{F_t(x) * A(x) - 1}{A(x)} \\
 \subsection{二维几何}
 %	\cppcode{geometry/8 Geo2D_simple.cpp}
 \cppcode{geometry/Geo2D.cpp}
-%	\subsection{凸包}
-%	\cppcode{geometry/convex.cpp}
+
 
 \subsection{阿波罗尼茨圆}
 \cppcode{geometry/3 abolonis.cpp}

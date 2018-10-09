@@ -1,4 +1,4 @@
-PWD C:/Users/17645/Desktop/template
+PWD D:/acm/Quasar_template/Quasar/foreign
 INPUT d:/Program Files/texlive/2018/texmf-var/web2c/xetex/xelatex.fmt
 INPUT main.tex
 OUTPUT main.log
@@ -366,6 +366,27 @@ INPUT d:/Program Files/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra
 INPUT d:/Program Files/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT d:/Program Files/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT d:/Program Files/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr5.tfm
+INPUT main.out.pyg
+INPUT main.out.pyg
+INPUT main.out.pyg
+INPUT main.out.pyg
+INPUT main.out.pyg
+INPUT main.out.pyg
+INPUT main.out.pyg
+INPUT main.out.pyg
+INPUT main.out.pyg
+INPUT main.out.pyg
+INPUT main.out.pyg
+INPUT main.out.pyg
+INPUT main.out.pyg
+INPUT main.out.pyg
+INPUT main.out.pyg
+INPUT main.out.pyg
+INPUT main.out.pyg
+INPUT main.out.pyg
+INPUT main.out.pyg
+INPUT main.out.pyg
+INPUT main.out.pyg
 INPUT main.out.pyg
 INPUT main.out.pyg
 INPUT main.out.pyg

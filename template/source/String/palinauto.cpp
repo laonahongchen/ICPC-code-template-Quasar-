@@ -1,7 +1,7 @@
 /*
 Palindrome Automaton
-���ʲ�ͬ�Ļ����Ӵ��ĸ��� = �Զ����ڵ���� - 2�� 
-siz[x]��ʾx�ڵ�����Ļ��Ĵ��������ַ����еĳ��ִ����� 
+本质不同的回文子串的个数 = 自动机节点个数 - 2。 
+siz[x]表示x节点代表的回文串在整个字符串中的出现次数。 
 Apio2014 Palindrome
 */ 
 struct Node{

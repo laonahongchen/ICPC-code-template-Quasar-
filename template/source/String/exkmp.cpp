@@ -1,5 +1,5 @@
-//Çó×Ö·û´®b[0, n)µÄÃ¿¸öºó×ººÍa[0, m)µÄ×î³¤¹«¹²Ç°×º¡£ 
-//½«×Ö·û´®·­×ªºó¿ÉÒÔÇó»ØÎÄ´®¡£ 
+//æ±‚å­—ç¬¦ä¸²b[0, n)çš„æ¯ä¸ªåŽç¼€å’Œa[0, m)çš„æœ€é•¿å…¬å…±å‰ç¼€ã€‚ 
+//å°†å­—ç¬¦ä¸²ç¿»è½¬åŽå¯ä»¥æ±‚å›žæ–‡ä¸²ã€‚ 
 void ExtendedKmp(int n, int m){ 
 	int i, j, k;
     for(j = 0;j + 1 < m && a[j] == a[j + 1];++j);
