@@ -12,7 +12,7 @@ inline int Extend(int p, int c){
     int np = ++nodecnt;
     T[np].len = T[p].len + 1, siz[np] = 1;
     for(;p != -1 && !T[p].nx[c];p = T[p].root)T[p].nx[c] = np;
-    if(p == -1)T[p].root = 0;
+    if(p == -1)T[np].root = 0;
     else{
         int q = T[p].nx[c];
         if(T[q].len == T[p].len + 1)T[np].root = q;
