@@ -150,14 +150,11 @@
 
 \cppcode{number-theory/pollard-rho.cpp}
 
-\subsection{快速数论变换(zky)}
+\subsection{快速数论变换}
 返回结果：$$c_i=\sum_{0 \leq j \leq i} a_j \cdot b_{i-j} (mod) \ (0 \leq i < n)$$
 \indent 使用说明：$magic$是$mod$的原根\\
 \indent 时间复杂度：$\mathcal{O}(n log n)$
 \cppcode{number-theory/number-theoretic-transform.cpp}
-
-%\subsection{快速数论变换(lyx)}
-%\cppcode{number-theory/DFT.cpp}
 
 \subsection{原根}
 \cppcode{number-theory/primeroot.cpp}
@@ -168,11 +165,6 @@
 \subsection{线性筛}
 \cppcode{number-theory/linear-sieve.cpp}
 
-%\subsection{离散对数}
-
-%\subsection{离散平方根}
-
-%\subsection{佩尔方程求解}
 
 \subsection{直线下整点个数}
 
@@ -616,7 +608,6 @@ $$0 \leq G(u,v) \leq C(u,v)-B(u,v)$$
 \end{enumerate}
 
 \subsection{上下界费用流}
-\noindent \textbf{来源：BZOJ 3876}
 \noindent 设汇$t$，源$s$，超级源$S$，超级汇$T$，本质是每条边的下界为1，上界为MAX，跑一遍有源汇的上下界最小费用最小流。（因为上界无穷大，所以只要满足所有下界的最小费用最小流）
 
 \begin{enumerate}
