@@ -306,10 +306,10 @@
 	\cppcode{Geometry/15.cpp}
 
 	\subsection{平面最近点对}
-	\cppcode{Geometry/nearest.cpp}
+	\cppcode{geometry/nearest.cpp}
 
 	\subsection{三维几何}
-	\cppcode{Geometry/3DGeo.cpp}
+	\cppcode{geometry/3DGeo.cpp}
 
 
 \section{其他}
