@@ -325,6 +325,21 @@ INPUT main.out.pyg
 INPUT main.out.pyg
 INPUT main.out.pyg
 INPUT main.out.pyg
+INPUT d:/Program Files/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
+INPUT d:/Program Files/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy5.tfm
+INPUT d:/Program Files/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT d:/Program Files/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
+INPUT d:/Program Files/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm
+INPUT d:/Program Files/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
+INPUT d:/Program Files/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT d:/Program Files/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT d:/Program Files/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr5.tfm
+INPUT main.out.pyg
+INPUT main.out.pyg
+INPUT main.out.pyg
+INPUT main.out.pyg
+INPUT main.out.pyg
+INPUT main.out.pyg
 INPUT main.out.pyg
 INPUT main.out.pyg
 INPUT main.out.pyg
@@ -391,15 +406,6 @@ INPUT main.out.pyg
 INPUT main.out.pyg
 INPUT main.out.pyg
 INPUT main.out.pyg
-INPUT d:/Program Files/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
-INPUT d:/Program Files/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy5.tfm
-INPUT d:/Program Files/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT d:/Program Files/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
-INPUT d:/Program Files/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm
-INPUT d:/Program Files/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
-INPUT d:/Program Files/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
-INPUT d:/Program Files/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-INPUT d:/Program Files/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr5.tfm
 INPUT main.out.pyg
 INPUT main.out.pyg
 INPUT main.out.pyg
