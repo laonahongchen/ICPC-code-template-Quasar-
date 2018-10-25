@@ -103,6 +103,12 @@
 \subsection{莫比乌斯反演}
 \cppcode{mobius.cpp}
 
+\subsection{杜教筛}
+\cppcode{Math/djs.cpp}
+
+\subsection{拉格朗日乘数法}
+\cppcode{Math/LagrangePolar.cpp}
+
 \subsection{扩展欧几里德算法}
 
 
@@ -150,14 +156,11 @@
 
 \cppcode{number-theory/pollard-rho.cpp}
 
-\subsection{快速数论变换(zky)}
+\subsection{快速数论变换}
 返回结果：$$c_i=\sum_{0 \leq j \leq i} a_j \cdot b_{i-j} (mod) \ (0 \leq i < n)$$
 \indent 使用说明：$magic$是$mod$的原根\\
 \indent 时间复杂度：$\mathcal{O}(n log n)$
 \cppcode{number-theory/number-theoretic-transform.cpp}
-
-%\subsection{快速数论变换(lyx)}
-%\cppcode{number-theory/DFT.cpp}
 
 \subsection{原根}
 \cppcode{number-theory/primeroot.cpp}
@@ -168,11 +171,6 @@
 \subsection{线性筛}
 \cppcode{number-theory/linear-sieve.cpp}
 
-%\subsection{离散对数}
-
-%\subsection{离散平方根}
-
-%\subsection{佩尔方程求解}
 
 \subsection{直线下整点个数}
 
@@ -209,6 +207,12 @@
 \subsection{自适应辛普森}
 
 \cppcode{numerical-algorithm/adaptive-simpson.cpp}
+
+\subsection{多项式求逆开根}
+\cppcode{polynomial/sqrt+inv.cpp}
+
+\subsection{分治NTT}
+\cppcode{polynomial/d&cNTT.cpp}
 
 
 \subsection{多项式求根}
@@ -287,98 +291,99 @@ F_{t + 1}(x) &\equiv F_t(x) - \dfrac{F_t(x) * A(x) - 1}{A(x)} \\
 
 \subsubsection{Treap}
 \cppcode{lyx-ds/treap.cpp}
-%\cppcode{data-structure/Treap.cpp}
+%\cppcode{Data-Structure/Treap.cpp}
 
 \subsubsection{Splay}
 \cppcode{lyx-ds/splay.cpp}
-%\cppcode{data-structure/Splay.cpp}
+%\cppcode{Data-Structure/Splay.cpp}
 
 \subsection{坚固的数据结构}
 
 %\subsubsection{坚固的线段树}
 
-%\cppcode{data-structure/persistent-segment-tree.cpp}
+%\cppcode{Data-Structure/persistent-segment-tree.cpp}
 
 \subsubsection{坚固的平衡树}
 
-\cppcode{data-structure/fhqTreap.cpp}
+\cppcode{Data-Structure/fhqTreap.cpp}
 
 %\subsubsection{坚固的字符串}
 
 %\begin{enumerate}
 %	\item ext库中的rope
-%	\cppcode{data-structure/crope.cpp}
+%	\cppcode{Data-Structure/crope.cpp}
 %	\item 可持久化平衡树实现的rope
-%	\cppcode{data-structure/rope.cpp}
+%	\cppcode{Data-Structure/rope.cpp}
 %\end{enumerate}
 
 \subsubsection{坚固的左偏树}
-%\cppcode{data-structure/lefttree.cpp}
+%\cppcode{Data-Structure/lefttree.cpp}
 \cppcode{lyx-ds/leftist_tree.cpp}
 
 %\subsubsection{不坚固的斜堆}
-%\cppcode{data-structure/SkewHeap.cpp}
+%\cppcode{Data-Structure/SkewHeap.cpp}
 
 \subsection{树上的魔术师}
 
 \subsubsection{轻重树链剖分}
-%\cppcode{data-structure/HLD.cpp}
+%\cppcode{Data-Structure/HLD.cpp}
 \cppcode{lyx-ds/HLD.cpp}
 
 %\subsubsection{轻重树链剖分(lyx)}
-%\cppcode{data-structure/tree-chain.cpp}
+%\cppcode{Data-Structure/tree-chain.cpp}
 
 %\subsubsection{Link Cut Tree(zky)}
-%\cppcode{data-structure/LCT.cpp}
+%\cppcode{Data-Structure/LCT.cpp}
 \subsubsection{lct}
 \cppcode{lyx-ds/LCT.cpp}
 
 %\subsubsection{Link Cut Tree(lyx)}
-%\cppcode{data-structure/Link-cut-tree.cpp}
+%\cppcode{Data-Structure/Link-cut-tree.cpp}
 
 %\subsubsection{AAA Tree}
-%\cppcode{data-structure/toptree.cpp}
+%\cppcode{Data-Structure/toptree.cpp}
 
 \subsection{RMQ}
-\cppcode{data-structure/Rmq.cpp}
+\cppcode{Data-Structure/Rmq.cpp}
 
 \subsection{可持久化线段树}
-\cppcode{data-structure/ChairTree.cpp}
+\cppcode{Data-Structure/ChairTree.cpp}
 
 \subsection{可持久化Trie}
-\cppcode{data-structure/ChairTrie.cpp}
+\cppcode{Data-Structure/ChairTrie.cpp}
 
  \subsection{k-d树}
 \cppcode{Data-Structure/K-d-Tree.cpp}
 
 
 \subsection{莫队算法}
-%\cppcode{data-structure/mo-team.cpp}
+%\cppcode{Data-Structure/mo-team.cpp}
 \cppcode{lyx-ds/modui_modify_ver.cpp}
 
 \subsection{树上莫队}
-%\cppcode{data-structure/mo-teamontree.cpp}
+%\cppcode{Data-Structure/mo-teamontree.cpp}
 \cppcode{lyx-ds/modui_tree_ver.cpp}
 
 %\subsection{整体二分}
-%\cppcode{data-structure/binary-search.cpp}
+%\cppcode{Data-Structure/binary-search.cpp}
 
 \subsection{树状数组kth}
-\cppcode{data-structure/fenwicktree.cpp}
+\cppcode{Data-Structure/fenwicktree.cpp}
 
 \subsection{虚树}
-\cppcode{data-structure/virtualtree.cpp}
+\cppcode{Data-Structure/virtualtree.cpp}
 
 \subsection{点分治(zky)}
-\cppcode{data-structure/pointdivide.cpp}
+\cppcode{Data-Structure/pointdivide.cpp}
 
-\subsection{圆方树}
-\cppcode{Data-Structure/yuanfang.cpp}
+%\subsection{圆方树}
+%\cppcode{Data-Structure/yuanfang.cpp}
+
 
 
 \section{图论}
 \subsection{点双连通分量}
-\cppcode{Graph-Algorithm/Double-Connected-Component.cpp}
+\cppcode{Graph_Theory/ver-bcc.cpp}
 \subsection{点双连通分量(lyx)}
 \cppcode{lyx-ds/bcc.cpp}
 
@@ -422,7 +427,8 @@ F_{t + 1}(x) &\equiv F_t(x) - \dfrac{F_t(x) * A(x) - 1}{A(x)} \\
 \subsection{度限制生成树}
 \cppcode{Graph-Algorithm/Minimum-Spanning-Tree-With-Degree-Limit.cpp}
 
-
+\subsection{圆方树}
+\cppcode{Graph_Theory/rsTree.cpp}
 
 \section{字符串}
 
@@ -439,6 +445,9 @@ F_{t + 1}(x) &\equiv F_t(x) - \dfrac{F_t(x) * A(x) - 1}{A(x)} \\
 \subsection{SAM}
 \cppcode{String/sam.cpp}
 
+\subsection*{广义SAM}
+\cppcode{String/exsam.cpp}
+
 \subsection{后缀数组}
 \cppcode{String/sa.cpp}
 
@@ -448,53 +457,12 @@ F_{t + 1}(x) &\equiv F_t(x) - \dfrac{F_t(x) * A(x) - 1}{A(x)} \\
 \subsection{Manacher}
 \cppcode{String/Manacher.cpp}
 
-
-
 \subsection{循环串的最小表示}
 \noindent \textbf{注意事项：}0-Based算法，请注意下标。
 %\cppcode{String-Algorithm/Minimum-Representation.cpp}
 \cppcode{string_ypm/minimumpresentation.cpp}
 
 \iffalse
-
-\subsection{KMP算法}
-
-\cppcode{string_ypm/KMP-poj3461.cpp}
-
-\subsection{扩展KMP算法}
-
-%返回结果：$$next_i = lcp(text, text_{i \dots n-1})$$
-
-%\cppcode{string-manipulation/ExtKMP.cpp}
-\cppcode{string_ypm/exKMP-hdu2594.cpp}
-
-\subsection{AC自动机}
-
-%\cppcode{string-manipulation/ACmachine.cpp}
-\cppcode{string_ypm/acauto.cpp}
-\subsection{后缀自动机}
-
-\subsubsection{广义后缀自动机(多串)}
-\noindent \textbf{注意事项：}空间是插入字符串总长度的2倍并请注意字符集大小。
-\cppcode{string_ypm/gy sam.cpp}
-
-\subsubsection{sam-ypm}
-\subsubsection*{sam-nsubstr}
-\cppcode{string_ypm/SAM-NSUBSTR.cpp}
-\subsubsection*{sam-lcs}
-\cppcode{string_ypm/SAM-LCS2.cpp}
-
-\subsection{后缀数组}
-\noindent \textbf{注意事项：}$\mathcal{O}(n\log n)$倍增构造。
-%\cppcode{String-Algorithm/Suffix-Array.cpp}
-\cppcode{string_ypm/SA.cpp}
-\noindent \textbf{注意：}$\mathcal{O}(n)$线性构造，常数大,约为倍增的0.5-0.6倍
-\cppcode{string_ypm/dc3-uoj34.cpp}
-
-\subsection{回文自动机}
-\noindent \textbf{注意事项：}请注意字符集大小。
-%\cppcode{String-Algorithm/Palindromic-Automaton.cpp}
-\cppcode{string_ypm/PAM.cpp}
 \subsection{Manacher}
 \noindent \textbf{注意事项：}1-based算法，请注意下标。
 \cppcode{string_ypm/manacher-poj3974.cpp}
@@ -517,8 +485,7 @@ F_{t + 1}(x) &\equiv F_t(x) - \dfrac{F_t(x) * A(x) - 1}{A(x)} \\
 \subsection{二维几何}
 %	\cppcode{geometry/8 Geo2D_simple.cpp}
 \cppcode{geometry/Geo2D.cpp}
-%	\subsection{凸包}
-%	\cppcode{geometry/convex.cpp}
+
 
 \subsection{阿波罗尼茨圆}
 \cppcode{geometry/3 abolonis.cpp}
@@ -556,6 +523,13 @@ F_{t + 1}(x) &\equiv F_t(x) - \dfrac{F_t(x) * A(x) - 1}{A(x)} \\
 \cppcode{geometry/3DGeo.cpp}
 
 \section{其他}
+
+\subsection{DP优化}
+\subsubsection{决策单调性}
+\cppcode{dp_opt/monotomy.cpp}
+
+\subsubsection{斜率优化}
+\cppcode{dp_opt/slope.cpp}
 
 \subsection{斯坦纳树}
 \cppcode{miscellany/Steiner-Tree.cpp}
@@ -658,7 +632,6 @@ $$0 \leq G(u,v) \leq C(u,v)-B(u,v)$$
 \end{enumerate}
 
 \subsection{上下界费用流}
-\noindent \textbf{来源：BZOJ 3876}
 \noindent 设汇$t$，源$s$，超级源$S$，超级汇$T$，本质是每条边的下界为1，上界为MAX，跑一遍有源汇的上下界最小费用最小流。（因为上界无穷大，所以只要满足所有下界的最小费用最小流）
 
 \begin{enumerate}
@@ -705,6 +678,7 @@ $$0 \leq G(u,v) \leq C(u,v)-B(u,v)$$
 		\item 对于0、1base未弄清楚，用混
 		\item map的赋值问题（dis[] = find(dis[])）
 		\item 输出格式
+		\item 置换的正反顺序写错
 	\end{enumerate}
 \end{spacing}
 
@@ -719,6 +693,7 @@ $$0 \leq G(u,v) \leq C(u,v)-B(u,v)$$
 		\item 检测程序运行所能使用的栈大小；
 		\item 检测是否有代码长度限制；
 		\item 检测是否能够正常返Runtime Error（assertion、return 1、空指针）；
+		\item 检测是否有MLE的结果;
 		\item 查清楚厕所方位和打印机方位；
 	\end{enumerate}
 \end{spacing}
@@ -735,6 +710,9 @@ $$0 \leq G(u,v) \leq C(u,v)-B(u,v)$$
 
 \subsection{样例代码}
 \javacode{template1.java}
+
+\subsection{样例代码2}
+\javacode{example3.java}
 
 \includepdf[pages={1-6}]{source/biginteger.pdf}
 \includepdf[pages={1-5}]{source/treemap.pdf}
