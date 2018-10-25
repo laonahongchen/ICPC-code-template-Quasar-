@@ -524,6 +524,13 @@ F_{t + 1}(x) &\equiv F_t(x) - \dfrac{F_t(x) * A(x) - 1}{A(x)} \\
 
 \section{其他}
 
+\subsection{DP优化}
+\subsubsection{决策单调性}
+\cppcode{dp_opt/monotomy.cpp}
+
+\subsubsection{斜率优化}
+\cppcode{dp_opt/slope.cpp}
+
 \subsection{斯坦纳树}
 \cppcode{miscellany/Steiner-Tree.cpp}
 
@@ -671,6 +678,7 @@ $$0 \leq G(u,v) \leq C(u,v)-B(u,v)$$
 		\item 对于0、1base未弄清楚，用混
 		\item map的赋值问题（dis[] = find(dis[])）
 		\item 输出格式
+		\item 置换的正反顺序写错
 	\end{enumerate}
 \end{spacing}
 
@@ -685,6 +693,7 @@ $$0 \leq G(u,v) \leq C(u,v)-B(u,v)$$
 		\item 检测程序运行所能使用的栈大小；
 		\item 检测是否有代码长度限制；
 		\item 检测是否能够正常返Runtime Error（assertion、return 1、空指针）；
+		\item 检测是否有MLE的结果;
 		\item 查清楚厕所方位和打印机方位；
 	\end{enumerate}
 \end{spacing}
