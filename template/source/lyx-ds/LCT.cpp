@@ -1,9 +1,9 @@
 struct LCT
 {
-	int fa[N], c[N][2], rev[N], sz[N];
+	int fa[N], c[N][2], rev[N], sz[N], szi[N]; // sz表示子树大小，szi表示虚儿子子树大小
 
 	void update(int o) {
-		sz[o] = sz[c[o][0]] + sz[c[o][1]] + 1;
+		sz[o] = sz[c[o][0]] + sz[c[o][1]] + szi[o] + 1;
 	}
 	void pushdown(int o) {
 		if(rev[o]) {
@@ -27,7 +27,7 @@ struct LCT
 		if(isroot(x)) return;
 		int p = fa[x], d = ch(x);
 		if(isroot(p)) fa[x] = fa[p];
-		else setc(x, fa(p), ch(p));
+		else setc(x, fa[p], ch(p));
 		setc(c[x][d^1], p, d);
 		setc(p, x, d^1);
 		update(p);
@@ -45,14 +45,18 @@ struct LCT
 		}
 	}
 	void access(int x) {
-		for(int y = 0; x; y = x, x = fa[x])
-			splay(x), c[x][1] = y, update(x);
+		for(int y = 0; x; y = x, x = fa[x]) {
+			splay(x);
+			szi[x] += sz[c[x][1]] - sz[y];
+			c[x][1] = y;
+			update(x);
+		}
 	}
 	void makeroot(int x) {
-		access(x), splay(x), rev(x) ^= 1;
+		access(x), splay(x), rev[x] ^= 1;
 	}
-	void link(int x, int y) {
-		makeroot(x), fa[x] = y, splay(x);
+	void link(int x, int y) { // 注意makeroot(y)
+		makeroot(x), makeroot(y), fa[x] = y, szi[y] += sz[x], splay(x);
 	}
 	void cut(int x, int y) {
 		makeroot(x);
