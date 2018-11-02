@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1540428251 "main.xdv" "main.pdf" "main" 1540428254
-  "main.xdv" 1540428251 3071452 c1c5994c45ad15f63199cc514ae7df0e "xelatex"
+["xdvipdfmx"] 1541121169 "main.xdv" "main.pdf" "main" 1541121170
+  "main.xdv" 1541121168 3128904 5f483d54deaf312695edd6982baf50bb "xelatex"
   (generated)
   "main.pdf"
-["xelatex"] 1540428212 "main.tex" "main.xdv" "main" 1540428253
+["xelatex"] 1541121145 "main.tex" "main.xdv" "main" 1541121170
   "c:/Windows/Fonts/msyh.ttc" 1523489648 19647736 ff2e53a6131130a07589812ea5b5b0d0 ""
   "d:/Program Files/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1536927029 3332 103109f5612ad95229751940c61aada0 ""
   "d:/Program Files/texlive/2018/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1536930069 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
@@ -160,10 +160,10 @@
   "d:/Program Files/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJK.sty" 1536929974 180953 728fabde42d4320c437d64319abe1fa4 ""
   "d:/Program Files/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJKfntef.sty" 1536929974 40261 86f20d70ec788243adbbf28c15e7e387 ""
   "d:/Program Files/texlive/2018/texmf-var/web2c/xetex/xelatex.fmt" 1536930354 3735322 c89e248aa3065d773a24a25d67af8024 ""
-  "main.aux" 1540428251 19878 cca92c76341708b5387833ad5630647e ""
-  "main.out" 1540428251 19055 4c77317473bb24706e655480f5979f41 ""
-  "main.tex" 1540428177 32443 0a56e16f33828a70096959cbabd1a337 ""
-  "main.toc" 1540428251 15812 378869f1e885cedccc1498cf343338be ""
+  "main.aux" 1541121168 20057 b155ae89acba1042f7e028ba6f1b1a8f ""
+  "main.out" 1541121168 19205 0ed157f08c8914c1d7411e0ea2da9335 ""
+  "main.tex" 1541121118 32616 0d07522ab25b62ce9bd3d053ff8ff50e ""
+  "main.toc" 1541121168 15955 f272b1e9e4e97d23ee97cb32467a1526 ""
   "nul" 0 0 d41d8cd98f00b204e9800998ecf8427e ""
   "source/Appendix/NFT-Primes.tex" 1534256224 3046 4a7c33c0f3b8037c27bfe6d1e0ac7630 ""
   "source/Appendix/cheat.pdf" 1534256224 157557 bdd56690e9bd0d80245e0af4a63a221b ""
@@ -174,8 +174,8 @@
   "source/calculustable.tex" 1534256224 2850 55a7dabdbf58478a4103d491a9f5d810 ""
   "source/treemap.pdf" 1534256224 177644 12b4daddc614e0375706f30e57b4722a ""
   (generated)
-  "main.log"
+  "main.toc"
   "main.out"
   "main.aux"
   "main.xdv"
-  "main.toc"
+  "main.log"
