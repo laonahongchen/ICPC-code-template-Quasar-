@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1539505222 "main.xdv" "main.pdf" "main" 1539505223
-  "main.xdv" 1539505222 1537220 76759c2f9257b9a827d40c10c724afb6 "xelatex"
+["xdvipdfmx"] 1541768004 "main.xdv" "main.pdf" "main" 1541768005
+  "main.xdv" 1541768003 1592276 98226a25668d83159f0dea643706be55 "xelatex"
   (generated)
   "main.pdf"
-["xelatex"] 1539505205 "main.tex" "main.xdv" "main" 1539505223
+["xelatex"] 1541767985 "main.tex" "main.xdv" "main" 1541768005
   "c:/Windows/Fonts/msyh.ttc" 1523489648 19647736 ff2e53a6131130a07589812ea5b5b0d0 ""
   "d:/Program Files/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1536927029 3332 103109f5612ad95229751940c61aada0 ""
   "d:/Program Files/texlive/2018/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1536930069 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
@@ -161,17 +161,17 @@
   "d:/Program Files/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJK.sty" 1536929974 180953 728fabde42d4320c437d64319abe1fa4 ""
   "d:/Program Files/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJKfntef.sty" 1536929974 40261 86f20d70ec788243adbbf28c15e7e387 ""
   "d:/Program Files/texlive/2018/texmf-var/web2c/xetex/xelatex.fmt" 1536930354 3735322 c89e248aa3065d773a24a25d67af8024 ""
-  "main.aux" 1539505222 7990 016123a1fc53b0393115cb2d80be1465 ""
-  "main.out" 1539505222 7015 8f5dca7d6b03452a387cc42bfde5bc78 ""
-  "main.tex" 1539505183 19468 cedf92315b7acad3fbec0535186cc148 ""
-  "main.toc" 1539505222 5497 bc6406e4c53af8b385d548667909dae0 ""
+  "main.aux" 1541768003 8269 5a11d34352cb52dc88005c0226c2aacf ""
+  "main.out" 1541768003 7206 00a7e0643e98b3b7a3870d41f74eb145 ""
+  "main.tex" 1541767945 23555 cd1fd5c8739650f186d725ba23904dcc ""
+  "main.toc" 1541768003 5698 e4e9253dd5f8d08bf41367721d67c2cf ""
   "nul" 0 0 d41d8cd98f00b204e9800998ecf8427e ""
   "source/Hint/Bernoulli-Number.tex" 1538967611 438 b4999711bd6f77d7cd3e62accd9432a4 ""
   "source/Hint/Game-Theory.tex" 1538967611 2883 b42a36da68633a4c0bc3325fabdbd97b ""
   "source/calculustable.tex" 1538967611 2719 22207662b7e254043bcb4c8941830071 ""
   (generated)
-  "main.log"
   "main.aux"
-  "main.toc"
   "main.xdv"
   "main.out"
+  "main.log"
+  "main.toc"
