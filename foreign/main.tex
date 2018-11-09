@@ -33,7 +33,13 @@
 \setmonofont{Ubuntu Mono}
 %字体设置
 \setmainfont{Ubuntu Mono}
-\pagestyle{headings}
+
+\pagestyle{fancy}
+\setlength{\headsep}{0.1cm}
+\rhead{\thepage}
+\lhead{上海交通大学 Shanghai Jiao Tong University}
+\chead{Quasar}
+
 \hypersetup{hidelinks}
 %\fontsize{5}{0}
 
@@ -105,6 +111,8 @@
 \end{titlepage}
 \tableofcontents
 \small
+
+
 \section{数学}
 
 	\subsection{快速求逆元(内含exgcd)}
@@ -129,9 +137,8 @@
 	\subsection{Pollard Rho 大数分解}
 	\cppcode{number-theory/pollard-rho.cpp}
 
-	\subsection{快速数论变换(zky)}
-	返回结果：$c_i=\sum_{0 \leq j \leq i} a_j \cdot b_{i-j} (mod) \ (0 \leq i < n)$
-	\cppcode{number-theory/number-theoretic-transform.cpp}
+	\subsection{NTT}
+	\cppcode{numerical-algorithm/ntt.cpp}
 
 	\subsection{原根}
 	\cppcode{number-theory/primeroot.cpp}
@@ -147,7 +154,10 @@
 
 	\subsection{高斯消元}
 	\cppcode{numerical-algorithm/Gauss.cpp}
-
+	
+	\subsection{FFT}
+	\cppcode{numerical-algorithm/fft_gls.cpp}
+	
 	\subsection{1e9+7 FFT}
 	\cppcode{numerical-algorithm/fft.cpp}
 
@@ -166,8 +176,6 @@
 	\subsection{lct}
 	\cppcode{Data-Structure/LCT.cpp}
 
-	%\subsection{k-d树}
-	%\cppcode{Data-Structure/K-d-Tree.cpp}
 
 	\subsection{树上莫队}
 	\cppcode{Data-Structure/modui_tree_ver.cpp}
@@ -177,10 +185,6 @@
 
 	\subsection{虚树}
 	\cppcode{Data-Structure/virtualtree.cpp}
-
-	%\subsection{lct}
-	%\cppcode{lyx-ds/LCT.cpp}
-
 
 \section{图论}
 
@@ -229,7 +233,7 @@
 \cppcode{String/sa.cpp}
 
 \subsection{回文自动机}
-\cppcode{String/palinauto.cpp}
+\cppcode{String/pam.cpp}
 
 \subsection{Manacher}
 \cppcode{String/Manacher.cpp}
@@ -237,36 +241,6 @@
 \noindent \textbf{注意事项：}0-Based算法，请注意下标。
 \cppcode{temp_ypm/minimumpresentation.cpp}
 
-\iffalse
-	\subsection{扩展KMP算法}
-	\cppcode{temp_ypm/exKMP-hdu2594.cpp}
-
-	\subsection{AC自动机}
-	\cppcode{temp_ypm/acauto.cpp}
-
-	\subsection{后缀自动机}
-		\subsubsection{广义后缀自动机(多串)}
-		\noindent \textbf{注意事项：}空间是插入字符串总长度的2倍并请注意字符集大小。
-		\cppcode{temp_ypm/gy sam.cpp}
-
-		\subsubsection{sam-ypm}
-			\subsubsection*{sam-nsubstr}
-			\cppcode{temp_ypm/SAM-NSUBSTR.cpp}
-			\subsubsection*{sam-lcs}
-			\cppcode{temp_ypm/SAM-LCS2.cpp}
-
-	\subsection{后缀数组}
-	\noindent \textbf{注意事项：}$\mathcal{O}(n\log n)$倍增构造。
-	\cppcode{temp_ypm/SA.cpp}
-
-	\subsection{Manacher}
-	\noindent \textbf{注意事项：}1-based算法，请注意下标。
-	\cppcode{temp_ypm/manacher-poj3974.cpp}
-
-	\subsection{循环串的最小表示}
-	\noindent \textbf{注意事项：}0-Based算法，请注意下标。
-	\cppcode{temp_ypm/minimumpresentation.cpp}
-\fi
 
 \section{计算几何}
 
