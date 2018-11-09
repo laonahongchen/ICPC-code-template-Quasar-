@@ -38,7 +38,9 @@
 \setlength{\headsep}{0.1cm}
 \rhead{\thepage}
 \lhead{上海交通大学 Shanghai Jiao Tong University}
-\chead{}
+\chead{Quasar}
+
+\setlength{\columnsep}{30pt}
 
 \hypersetup{hidelinks}
 %\fontsize{5}{0}
