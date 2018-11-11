@@ -1,14 +1,8 @@
-#define SZ(x) ((int)x.size())
-const int N = 400005, M = 200005; //N开2倍点数
-vector<int> g[N], bcc[N],  G[N];
-int bccno[N], bcc_cnt;
-bool iscut[N];
-struct Edge {
-	int u, v;
-} stk[M << 2];
+vector<int> g[N], bcc[N],  G[N];  //N开2倍点数
+int bccno[N], bcc_cnt; bool iscut[N];
+struct Edge { int u, v; } stk[M << 2];
 int top, dfn[N], low[N], dfs_clock;// 注意栈大小为边数4倍
-void dfs(int x, int fa)
-{
+void dfs(int x, int fa) {
 	low[x] = dfn[x] = ++dfs_clock;
 	int child = 0;
 	for(int i = 0; i < SZ(g[x]); i++) {
@@ -35,8 +29,7 @@ void dfs(int x, int fa)
 	}
 	if(fa == 0 && child == 1) iscut[x] = false;
 }
-void find_bcc() // 求点双联通分量，需要时手动1到n清空，1-based
-{
+void find_bcc() {// 求点双联通分量，1-based
 	memset(dfn, 0, sizeof(dfn));
 	memset(iscut, 0, sizeof(iscut));
 	memset(bccno, 0, sizeof(bccno));

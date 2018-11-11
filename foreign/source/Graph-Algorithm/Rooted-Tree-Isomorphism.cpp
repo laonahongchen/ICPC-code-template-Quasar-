@@ -24,7 +24,6 @@ void solve(int root) {
 			value.push_back(hash[y]);
 		}
 		std::sort(value.begin(), value.end());
-		
 		hash[x].first = hash[x].first * magic[1] + 37;
 		hash[x].second++;
 		for (int i = 0; i < (int)value.size(); ++i) {

@@ -1,5 +1,4 @@
-class Edge{
-public:
+struct Edge{
 	int size, begin[MAXN], dest[MAXM], next[MAXM];
 	void clear(int n){
 		size = 0;
@@ -12,8 +11,7 @@ public:
 		begin[u] = size++;
 	}
 };
-class dominator{
-public:
+struct dominator{
 	int dfn[MAXN],sdom[MAXN],idom[MAXN],id[MAXN],f[MAXN],fa[MAXN],smin[MAXN],stamp;
 	void predfs(int x, const Edge &succ){
 		id[dfn[x] = stamp++] = x;

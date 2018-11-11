@@ -9,8 +9,7 @@ void merge(int x, int y) {
 	if (x != y)	belong[x] = y;
 }
 int lca(int x, int y) {
-	static int stamp = 0;
-	stamp++;
+	static int stamp = 0; stamp++;
 	while (true) {
 		if (x != -1) {
 			x = find(x);
@@ -41,8 +40,7 @@ void augment(int source) {
 	queue.clear();
 	for (int i = 0; i < n; ++i) {
 		next[i] = visit[i] = -1;
-		belong[i] = i;
-		mark[i] = 0;
+		belong[i] = i, mark[i] = 0;
 	}
 	mark[source] = 1;
 	queue.push_back(source);
@@ -73,8 +71,7 @@ void augment(int source) {
 }
 int solve() {
 	std::fill(match, match + n, -1);
-	for (int i = 0; i < n; ++i)
-		if (match[i] == -1) augment(i);
+	for (int i = 0; i < n; ++i) if (match[i] == -1) augment(i);
 	int answer = 0;
 	for (int i = 0; i < n; ++i) answer += (match[i] != -1);
 	return answer;
