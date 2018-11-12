@@ -16,7 +16,7 @@ void IFWT(LL *a, int n) {
 				// xor: a[k] = mul((u + v) % MOD, inv2); 
 				//		a[k + h / 2] = mul((u - v + MOD) % MOD, inv2);
 				// and: a[k] = (u - v + MOD) % MOD; a[k + h / 2] = v;
-				// or: a[k] = u; a[k + h / 2] = (u - v + MOD) % MOD;
+				// or: a[k] = u; a[k + h / 2] = (v - u + MOD) % MOD;
 			}
 }
 void multiply(LL *a, LL *b, LL *c, int len) {
